@@ -2,189 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12860c1c-f0f5-4f4a-8582-3d17a3e27752" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CodenameCharlotte" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CodenameNerubian" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/sonarlint/issuestore/f/2/f2338022673e18f4333ce43f681d9bab02b333a5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/target/flink-java-project-0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/target/original-flink-java-project-0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-training-exercises" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/target/maven-test-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/target/test-classes/FirstTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/target/test-classes/WordCountExample$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/target/test-classes/WordCountExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RandomNameGenerator/out/production/RandomNameGenerator/myPackage/Dictionary.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RandomNameGenerator/out/production/RandomNameGenerator/myPackage/RandomNameGen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/target/test-classes/Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/target/test-classes/Noms.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/target/test-classes/Prenoms.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/target/test-classes/RandomAmount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/target/test-classes/RandomClientGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/target/test-classes/RandomNameTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/target/test-classes/RandomTime.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/target/classes/Car.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/target/classes/Fibonacci.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/target/classes/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/target/classes/MyFunctions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/target/classes/MyMethods.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/target/test-classes/FiboTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/target/test-classes/MyTests.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/BasicEnemy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/FastEnemy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/Game.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/GameObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/HUD.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/Handler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/ID.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/KeyInput.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/Player.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/Spawn.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/Trail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/out/production/mini-game/Game/Window.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sublimeTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/classes/com/ovh/bi/jlenotte/BatchJob.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/classes/com/ovh/bi/jlenotte/SocketTextStreamWordCount$LineSplitter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/classes/com/ovh/bi/jlenotte/SocketTextStreamWordCount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/classes/com/ovh/bi/jlenotte/StreamingJob.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/classes/com/ovh/bi/jlenotte/WordCount$LineSplitter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/classes/com/ovh/bi/jlenotte/WordCount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_data_artisans_flakka_actor_2_10_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_data_artisans_flakka_remote_2_10_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_data_artisans_flakka_slf4j_2_10_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_data_artisans_flink_training_exercises_0_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_6_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_6_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_github_scopt_scopt_2_10_3_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_ning_compress_lzf_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_spatial4j_spatial4j_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_squareup_retrofit_retrofit_1_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_twitter_chill_2_10_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_twitter_chill_java_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_twitter_jsr166e_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_beanutils_commons_beanutils_bean_collections_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_configuration_commons_configuration_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__io_netty_netty_3_8_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__io_netty_netty_all_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_clients_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_connector_elasticsearch2_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_connector_elasticsearch_base_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_10_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_9_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_base_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_core_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_gelly_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_gelly_examples_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_gelly_scala_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_java_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_scala_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_shaded_hadoop2_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_flink_table_2_10_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_flink_force_shading_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_10_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_core_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_join_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_memory_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_misc_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_queries_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_sling_org_apache_sling_commons_json_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_10_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_elasticsearch_elasticsearch_2_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_elasticsearch_securesm_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_influxdb_influxdb_java_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_javassist_javassist_3_18_2_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_joda_joda_convert_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_scalamacros_quasiquotes_2_10_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_uncommons_maths_uncommons_maths_1_2_2a.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/sonarlint/issuestore/index.pb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/flink-java-project.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/src/main/java/org/apache/flink/quickstart/BatchJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/src/main/java/org/apache/flink/quickstart/SocketTextStreamWordCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/src/main/java/org/apache/flink/quickstart/StreamingJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/src/main/java/org/apache/flink/quickstart/WordCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FlinkMavenQuickstart/flink-java-project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
@@ -329,251 +146,22 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_twitter_bijection_avro_2_10_0_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_twitter_bijection_core_2_10_0_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_twitter_chill_2_10_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_twitter_chill_avro_2_10_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_twitter_chill_bijection_2_10_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_twitter_chill_java_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_twitter_chill_protobuf_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__com_twitter_chill_thrift_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__io_netty_netty_all_4_0_21_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__junit_junit_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_avro_avro_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_commons_commons_math_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_flink_flink_clients_0_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_flink_flink_compiler_0_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_flink_flink_core_0_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_flink_flink_java_0_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_flink_flink_runtime_0_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_flink_flink_shaded_0_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_thrift_libthrift_0_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_3_0_20100224.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_ow2_asm_asm_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/PROJECTS.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/hamlet.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/jules-test/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/src/test/java/FirstTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/src/test/java/WordCountExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PROJECTS/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RandomNameGenerator/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RandomNameGenerator/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RandomNameGenerator/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RandomNameGenerator/RandomNameGenerator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RandomNameGenerator/src/myPackage/Dictionary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RandomNameGenerator/src/myPackage/RandomNameGen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SQL-DB/myDb.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/.idea/libraries/Maven__junit_junit_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/all-my-tests.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/src/test/java/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/src/test/java/Noms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/src/test/java/Prenoms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/src/test/java/RandomAmount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/src/test/java/RandomClientGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/src/test/java/RandomNameTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../all-my-tests/src/test/java/RandomTime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/java-pract.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/src/main/java/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/src/main/java/Fibonacci.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/src/main/java/MyFunctions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/src/main/java/MyMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/src/test/java/FiboTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../java-pract/src/test/java/MyTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/mini-game.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/BasicEnemy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/FastEnemy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Game.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/GameObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/HUD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Handler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/ID.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/KeyInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Spawn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Trail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Window.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sublimeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_data_artisans_flakka_actor_2_10_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_data_artisans_flakka_remote_2_10_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_data_artisans_flakka_slf4j_2_10_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_github_scopt_scopt_2_10_3_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_twitter_chill_2_10_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_twitter_chill_java_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_beanutils_commons_beanutils_bean_collections_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_configuration_commons_configuration_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__io_netty_netty_3_8_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__io_netty_netty_all_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_clients_2_10_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_core_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_java_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_10_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_10_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_shaded_hadoop2_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_10_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_flink_force_shading_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_sling_org_apache_sling_commons_json_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_10_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_javassist_javassist_3_18_2_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__org_uncommons_maths_uncommons_maths_1_2_2a.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/src/main/java/com/ovh/bi/jlenotte/BatchJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/src/main/java/com/ovh/bi/jlenotte/SocketTextStreamWordCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/src/main/java/com/ovh/bi/jlenotte/StreamingJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/src/main/java/com/ovh/bi/jlenotte/WordCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../temp/test/test.iml" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/../CodenameDamocles/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CodenameCharlotte" afterPath="$PROJECT_DIR$/../CodenameCharlotte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CodenameNerubian" afterPath="$PROJECT_DIR$/../CodenameNerubian" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PROJECTS/hamlet.txt" afterPath="$PROJECT_DIR$/../PROJECTS/hamlet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/BasicEnemy.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/BasicEnemy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/FastEnemy.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/FastEnemy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/Game.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/GameObject.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/GameObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/HUD.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/HUD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/Handler.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Handler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/ID.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/ID.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/KeyInput.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/KeyInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/Player.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/Spawn.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Spawn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/Trail.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Trail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mini-game/src/Game/Window.java" afterPath="$PROJECT_DIR$/../mini-game/src/Game/Window.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -589,8 +177,8 @@
       <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -822,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1503327419384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit, adding local files to remote repository.">
+      <created>1503328689021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503328689021</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit, adding local files to remote repository.">
+      <created>1503328858129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1503328858129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -841,7 +443,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1015,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

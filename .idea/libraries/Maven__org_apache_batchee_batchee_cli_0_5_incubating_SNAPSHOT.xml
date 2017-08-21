@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.batchee:batchee-cli:0.5-incubating-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/batchee/batchee-cli/0.5-incubating-SNAPSHOT/batchee-cli-0.5-incubating-20170628.073536-16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/batchee/batchee-cli/0.5-incubating-SNAPSHOT/batchee-cli-0.5-incubating-20170628.073536-16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/batchee/batchee-cli/0.5-incubating-SNAPSHOT/batchee-cli-0.5-incubating-20170628.073536-16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

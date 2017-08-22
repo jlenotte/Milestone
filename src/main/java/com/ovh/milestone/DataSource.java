@@ -11,25 +11,31 @@ import org.slf4j.LoggerFactory;
 
 public class DataSource
 {
-    private final static Logger LOGGER = LoggerFactory.getLogger(DataSource.class.getName());
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(DataSource.class.getName());
 
     public List<Invoice> readFile(DataSet<String> fileName)
     {
+        // Liste d'Invoice
         ArrayList<Invoice> list = new ArrayList<>();
+
         try
         {
             LOGGER.debug("Reading CSV file...");
 
-            try (CSVReader reader = new CSVReader(new FileReader(String.valueOf(fileName)), ','))
+            // Read with CSVReader from openCSV
+            try (CSVReader reader = new CSVReader(new FileReader("dataBase.csv"), ','))
             {
+                // String Array to format the pojo
                 String[] nextLine;
 
+                // As long as the file has a line ...
                 while ((nextLine = reader.readNext()) != null)
                 {
                     //                System.out.println(
                     //                    nextLine[0] + " " + nextLine[1] + " " + nextLine[2] + " " + nextLine[3] + " "
                     //                        + nextLine[4]);
+
                     String nic = nextLine[0];
                     String name = nextLine[1];
                     String firstName = nextLine[2];
@@ -44,9 +50,7 @@ public class DataSource
         }
         catch (Exception e)
         {
-            System.out.println(e.getMessage());
-            LOGGER.debug(
-                "An error occured while trying to read the CSV file. Please check your file's name and path.");
+            LOGGER.error(e.getMessage());
         }
         return list;
     }

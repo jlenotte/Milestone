@@ -1,9 +1,12 @@
 package com.ovh.milestone;
 
 import java.time.ZonedDateTime;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.DataSet;
+import org.apache.flink.api.java.operators.DataSink;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,41 @@ public class FlinkJob
 {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(FlinkJob.class);
+
+    /**
+     *
+     * Sort all the Invoices by order DESC
+     *
+     */
+    public List<Invoice> getTopTransactions(List<Invoice> list, int amount)
+    {
+        // Init vars
+        List<Invoice> resultList;
+        Comparator<Invoice> byTransaction;
+
+        // Define comparator to double for transactions
+        byTransaction = Comparator.comparingDouble(Invoice::getTransaction);
+
+        // Sort the list and limit N
+        resultList = list
+            .parallelStream()
+            .sorted(byTransaction.reversed())
+            .limit(amount)
+            .collect(Collectors.toList());
+
+        return resultList;
+    }
+
+    /**
+     *
+     *
+     * Sort the data in data Sink
+     *
+     */
+    public DataSink<String> getTopN(DataSet<String> data)
+    {
+        return data.writeAsCsv("DataSet_Result", "\n", ",");
+    }
 
     /**
      * Display the list with flink

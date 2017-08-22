@@ -8,6 +8,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$MAVEN_REPOSITORY$/com/twitter/chill-java/0.7.4/chill-java-0.7.4.pom">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.0.1/kafka-clients-0.10.0.1.pom">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/DataSource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/Jobs.java">
           <value>
             <set />
@@ -59,6 +74,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/StreamJobs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/logback.xml">
           <value>
             <set />
           </value>

@@ -9,24 +9,24 @@ public class Invoice
     private String nichandle;
     private String name;
     private String firstName;
-    private ZonedDateTime date;
     private Double transaction;
+    private ZonedDateTime date;
 
     // Constructor
-    Invoice()
+    public Invoice()
     {
+        this.nichandle = null;
         this.name = null;
         this.firstName = null;
-        this.nichandle = null;
         this.transaction = null;
         this.date = null;
     }
 
-    Invoice(String nichandle, String name, String firstName, Double transaction, ZonedDateTime date)
+    public Invoice(String nichandle, String name, String firstName, Double transaction, ZonedDateTime date)
     {
+        this.nichandle = nichandle;
         this.name = name;
         this.firstName = firstName;
-        this.nichandle = nichandle;
         this.transaction = transaction;
         this.date = date;
     }
@@ -35,27 +35,27 @@ public class Invoice
      * Getters & Setters
      */
 
-    String getNichandle()
+    public String getNichandle()
     {
         return nichandle;
     }
 
-    String getName()
+    public String getName()
     {
         return name;
     }
 
-    Double getTransaction()
+    public Double getTransaction()
     {
         return transaction;
     }
 
-    ZonedDateTime getDate()
+    public ZonedDateTime getDate()
     {
         return date;
     }
 
-    String getFirstName()
+    public String getFirstName()
     {
         return firstName;
     }
@@ -85,13 +85,6 @@ public class Invoice
         this.transaction = transaction;
     }
 
-    public String toString()
-    {
-        return "[Client]" + "NicHandle: " + nichandle + " Nom: " + name + ", Prenom: " + firstName
-            + ", Montant: " + transaction
-            + ", Date: " + date + "\n";
-    }
-
     @Override
     public int hashCode()
     {
@@ -102,5 +95,12 @@ public class Invoice
     public boolean equals(Object o)
     {
         return super.equals(o);
+    }
+
+    public String toString()
+    {
+        return "[Client]" + "NicHandle: " + nichandle + " Nom: " + name + ", Prenom: " + firstName
+            + ", Montant: " + transaction
+            + ", Date: " + date + "\n";
     }
 }

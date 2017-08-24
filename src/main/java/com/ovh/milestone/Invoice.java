@@ -1,6 +1,7 @@
 package com.ovh.milestone;
 
 import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class Invoice
 {
@@ -10,7 +11,9 @@ public class Invoice
     private String name;
     private String firstName;
     private Double transaction;
-    private ZonedDateTime date;
+    private String date;
+
+
 
     // Constructor
     public Invoice()
@@ -24,11 +27,15 @@ public class Invoice
 
     public Invoice(String nichandle, String name, String firstName, Double transaction, ZonedDateTime date)
     {
+
         this.nichandle = nichandle;
         this.name = name;
         this.firstName = firstName;
         this.transaction = transaction;
-        this.date = date;
+
+        // Format ZDT into String using ISO Date conversion
+        this.date = date.format(DateTimeFormatter.ISO_ZONED_DATE_TIME);
+        //this.date = date;
     }
 
     /**
@@ -50,9 +57,19 @@ public class Invoice
         return transaction;
     }
 
-    public ZonedDateTime getDate()
+
+
+    public String getDate()
     {
+        //return ZonedDateTime.parse(date, DateTimeFormatter.ISO_ZONED_DATE_TIME);
         return date;
+    }
+
+
+
+    public ZonedDateTime getZonedDate()
+    {
+        return ZonedDateTime.parse(date, DateTimeFormatter.ISO_ZONED_DATE_TIME);
     }
 
     public String getFirstName()
@@ -76,6 +93,13 @@ public class Invoice
     }
 
     public void setDate(ZonedDateTime date)
+    {
+        this.date = date.format(DateTimeFormatter.ISO_ZONED_DATE_TIME);
+    }
+
+
+
+    public void setDate(String date)
     {
         this.date = date;
     }

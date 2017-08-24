@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12860c1c-f0f5-4f4a-8582-3d17a3e27752" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FlinkJobTest.java" afterPath="$PROJECT_DIR$/src/test/java/FlinkJobTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,14 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
+      <file leaf-file-name="FlinkJob.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="855">
+              <caret line="178" column="14" lean-forward="false" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,8 +72,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlinkJobTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
       </list>
     </option>
   </component>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503581139103</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Nichandle reduce functionnal.">
+      <created>1503593905769</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1503593905770</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -659,12 +660,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.50545096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1920" y="48" width="1920" height="1032" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.50545096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1920" y="48" width="1920" height="1032" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -724,7 +725,8 @@
     <MESSAGE value="Starting to build the program skeleton." />
     <MESSAGE value="Building transformations and must fix DataSources." />
     <MESSAGE value="Trying different flink approaches. Method getNichandleSum implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying different flink approaches. Method getNichandleSum implemented." />
+    <MESSAGE value="Nichandle reduce functionnal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Nichandle reduce functionnal." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -739,7 +741,9 @@
         <state relative-caret-position="884">
           <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1503593752720" expanded="true" signature="35:302" ph="..." />
+            <marker date="1503593752720" expanded="true" signature="329:1172" ph="/**...*/" />
+            <marker date="1503593752720" expanded="true" signature="1303:2095" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -748,6 +752,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="66" lean-forward="false" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,6 +760,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="66" lean-forward="true" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -983,6 +989,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <marker date="1503582718629" expanded="true" signature="35:266" ph="..." />
+            <marker date="1503582718629" expanded="true" signature="454:1912" ph="{...}" />
+            <marker date="1503582718629" expanded="true" signature="1032:1251" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -997,23 +1008,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="147" column="21" lean-forward="true" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="906">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1503593752720" expanded="true" signature="35:302" ph="..." />
+            <marker date="1503593752720" expanded="true" signature="329:1172" ph="/**...*/" />
+            <marker date="1503593752720" expanded="true" signature="1303:2095" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="178" column="14" lean-forward="false" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

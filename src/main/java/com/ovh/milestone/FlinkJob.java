@@ -1,5 +1,6 @@
 package com.ovh.milestone;
 
+import java.time.Month;
 import java.time.ZonedDateTime;
 import java.util.Comparator;
 import java.util.List;
@@ -127,35 +128,27 @@ public class FlinkJob
                 // group by Invoices to get nichandles
                 .groupBy(Invoice::getNichandle)
                 // reduce the transactions
-                .reduce(new ReduceFunction<Invoice>()
+                .reduce((ReduceFunction<Invoice>) (value1, value2) ->
                 {
-                    @Override
-                    public Invoice reduce(Invoice value1, Invoice value2) throws Exception
-                    {
-                        LOGGER.debug("value1 "
-                            + value1.getNichandle()
-                            + " / value2 "
-                            + value2.getNichandle());
-                        return new Invoice(value1.getNichandle(),
-                            value1.getName(),
-                            value1.getFirstName(),
-                            value1.getTransaction() + value2.getTransaction(),
-                            value1.getZonedDate());
-                    }
+                    LOGGER.debug("value1 "
+                        + value1.getNichandle()
+                        + " / value2 "
+                        + value2.getNichandle());
+                    return new Invoice(value1.getNichandle(),
+                        value1.getName(),
+                        value1.getFirstName(),
+                        value1.getTransaction() + value2.getTransaction(),
+                        value1.getZonedDate());
                 })
                 // map to tuple
-                .map(new MapFunction<Invoice, Tuple2<String, Double>>()
+                .map((MapFunction<Invoice, Tuple2<String, Double>>) invoice ->
                 {
-                    @Override
-                    public Tuple2<String, Double> map(Invoice invoice) throws Exception
-                    {
-                        String nic = invoice.getNichandle()
-                            + invoice.getName()
-                            + invoice.getFirstName();
-                        Double sum = invoice.getTransaction();
-                        LOGGER.info("MAP FUNCTION : " + nic + " : " + String.valueOf(sum));
-                        return new Tuple2<>(nic, sum);
-                    }
+                    String nic = invoice.getNichandle()
+                        + invoice.getName()
+                        + invoice.getFirstName();
+                    Double sum = invoice.getTransaction();
+                    LOGGER.info("MAP FUNCTION : " + nic + " : " + String.valueOf(sum));
+                    return new Tuple2<>(nic, sum);
                 });
         }
         catch (Exception e)
@@ -170,7 +163,7 @@ public class FlinkJob
 
 
     /**
-     * Get all transactions from MM month of YYYY year
+     * Get sum of all transactions for every month
      */
     public DataSet<Invoice> getTransactionsPerMonthFlink(DataSet<Invoice> data)
     {
@@ -181,7 +174,7 @@ public class FlinkJob
                 @Override
                 public boolean filter(Invoice value) throws Exception
                 {
-                    return value.getDate().equals("2012");
+                    return value.getZonedDate().getMonth() == Month.JANUARY;
                 }
             });
     }

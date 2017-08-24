@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/DatabaseWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/Jobs.java">
           <value>
             <set />
@@ -34,6 +39,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/test/java/com/ovh/charlotte/LambdaTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/test/java/com/ovh/charlotte/WriteTest.java">
           <value>
             <set />
           </value>

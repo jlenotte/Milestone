@@ -28,6 +28,7 @@ public class DataSource
             {
                 // String Array to format the pojo
                 String[] nextLine;
+                int index = 0;
 
                 // As long as the file has a line ...
                 while ((nextLine = reader.readNext()) != null)
@@ -36,11 +37,11 @@ public class DataSource
                     //                    nextLine[0] + " " + nextLine[1] + " " + nextLine[2] + " " + nextLine[3] + " "
                     //                        + nextLine[4]);
 
-                    String nic = nextLine[0];
-                    String name = nextLine[1];
-                    String firstName = nextLine[2];
-                    double transaction = Double.parseDouble(nextLine[3]);
-                    ZonedDateTime date = ZonedDateTime.parse(nextLine[4]);
+                    String nic = nextLine[index++];
+                    String name = nextLine[index++];
+                    String firstName = nextLine[index++];
+                    double transaction = Double.parseDouble(nextLine[index++]);
+                    ZonedDateTime date = ZonedDateTime.parse(nextLine[index++]);
 
                     Invoice c = new Invoice(nic, name, firstName, transaction, date);
                     list.add(c);

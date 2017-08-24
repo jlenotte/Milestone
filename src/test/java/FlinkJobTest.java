@@ -11,9 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.api.java.operators.MapOperator;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import scala.Tuple2;
 
 public class FlinkJobTest
 {
@@ -90,7 +92,32 @@ public class FlinkJobTest
                                        .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "date");
             FlinkJob fj = new FlinkJob();
 
-            fj.getNichandleSumFlink(data, 100);
+            MapOperator<Invoice, Tuple2<String, Double>> result = fj.getNichandleSumFlink(data);
+        }
+        catch (Exception e)
+        {
+            LOGGER.error(e.getMessage());
+        }
+    }
+
+
+
+
+    @Test
+    public void perMonthOfYearTest()
+    {
+        try
+        {
+            // Boilerplate
+            final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+
+            env.registerType(Invoice.class);
+            String csvFile = "dataBase.csv";
+            DataSet<Invoice> data = env.readCsvFile(csvFile)
+                                       .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "date");
+            FlinkJob fj = new FlinkJob();
+
+            fj.getNichandleSumFlink(data);
         }
         catch (Exception e)
         {

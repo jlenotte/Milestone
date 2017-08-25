@@ -13,8 +13,7 @@ public class Main
 
     /**
      * Program Milestone is a revamp of the project Charlotte which is basically a program that
-     * processes DataSets in order to get data results like top N transactions for a specific month,
-     * or year, etc ...
+     * processes CSV files into DataSets to get results like top N/total transactions for a specific month or year, etc ...
      *
      * Milestone will be the first step to a new real Flink project
      *
@@ -38,7 +37,8 @@ public class Main
         // Boilerplate
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
         String csvFile = "dataBase.csv";
-        FlinkJob fj = new FlinkJob();
+
+        // Instances
         YearMonthTotal yearMonthTotal = new YearMonthTotal();
         PerNicTotal nicTotal = new PerNicTotal();
 

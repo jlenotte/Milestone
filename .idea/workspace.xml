@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12860c1c-f0f5-4f4a-8582-3d17a3e27752" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/PerNicTotal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/YearMonthTotal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FlinkJobTest.java" afterPath="$PROJECT_DIR$/src/test/java/FlinkJobTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,13 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
+      <file leaf-file-name="FlinkJob.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="39">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <marker date="1503678054052" expanded="true" signature="28:331" ph="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -84,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/PerNicTotal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java" />
       </list>
     </option>
   </component>
@@ -637,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503597356403</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Total per Year/Month functionnal.">
+      <created>1503678180893</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1503678180895</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -689,7 +695,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -750,7 +756,8 @@
     <MESSAGE value="Building transformations and must fix DataSources." />
     <MESSAGE value="Trying different flink approaches. Method getNichandleSum implemented." />
     <MESSAGE value="Nichandle reduce functionnal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Nichandle reduce functionnal." />
+    <MESSAGE value="Total per Year/Month functionnal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Total per Year/Month functionnal." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -765,7 +772,11 @@
         <state relative-caret-position="748">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <marker date="1503678054052" expanded="true" signature="28:331" ph="..." />
+            <marker date="1503678665994" expanded="true" signature="28:331" ph="..." />
+            <marker date="1503678665994" expanded="true" signature="35:331" ph="..." />
+            <marker date="1503678665994" expanded="true" signature="358:1310" ph="/**...*/" />
+            <marker date="1503678665994" expanded="true" signature="1441:2643" ph="{...}" />
+            <marker date="1503678665994" expanded="true" signature="2018:2230" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -775,7 +786,11 @@
         <state relative-caret-position="884">
           <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
-            <marker date="1503678054052" expanded="true" signature="28:331" ph="..." />
+            <marker date="1503678665994" expanded="true" signature="28:331" ph="..." />
+            <marker date="1503678665994" expanded="true" signature="35:331" ph="..." />
+            <marker date="1503678665994" expanded="true" signature="358:1310" ph="/**...*/" />
+            <marker date="1503678665994" expanded="true" signature="1441:2643" ph="{...}" />
+            <marker date="1503678665994" expanded="true" signature="2018:2230" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1327,34 +1342,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1382">
-          <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+        <state relative-caret-position="872">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
           <folding>
-            <marker date="1503677423770" expanded="true" signature="35:657" ph="..." />
-            <marker date="1503677423770" expanded="true" signature="773:826" ph="/**...*/" />
-            <marker date="1503677423770" expanded="true" signature="907:1386" ph="{...}" />
-            <marker date="1503677423770" expanded="true" signature="1394:1470" ph="/**...*/" />
-            <marker date="1503677423770" expanded="true" signature="1588:1808" ph="{...}" />
-            <marker date="1503677423770" expanded="true" signature="1816:2032" ph="/**...*/" />
-            <marker date="1503677423770" expanded="true" signature="2140:3714" ph="{...}" />
-            <marker date="1503677423770" expanded="true" signature="2255:2700" ph="{...}" />
-            <marker date="1503677423770" expanded="true" signature="3230:3485" ph="{...}" />
-            <marker date="1503677423770" expanded="true" signature="3722:3754" ph="/**...*/" />
-            <marker date="1503677423770" expanded="true" signature="3839:4200" ph="{...}" />
-            <marker date="1503677423770" expanded="true" signature="3968:4192" ph="{...}" />
-            <marker date="1503677423770" expanded="true" signature="4082:4178" ph="{...}" />
+            <marker date="1503678665994" expanded="true" signature="28:331" ph="..." />
+            <marker date="1503678665994" expanded="true" signature="35:331" ph="..." />
+            <marker date="1503678665994" expanded="true" signature="358:1310" ph="/**...*/" />
+            <marker date="1503678665994" expanded="true" signature="1441:2643" ph="{...}" />
+            <marker date="1503678665994" expanded="true" signature="2018:2230" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1503678054052" expanded="true" signature="28:331" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

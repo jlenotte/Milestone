@@ -118,7 +118,9 @@ public class FlinkJob
 
     /**
      * Filter sample
+     * @deprecated filtering sample for educational purposes
      */
+    @Deprecated
     public DataSet<Invoice> getTransactionsPerMonthFlink(DataSet<Invoice> data)
     {
         return data

@@ -92,7 +92,7 @@ public class FlinkJobTest
                                        .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "date");
             FlinkJob fj = new FlinkJob();
 
-            MapOperator<Invoice, Tuple2<String, Double>> result = fj.getNichandleSumFlink(data);
+//            MapOperator<Invoice, Tuple2<String, Double>> result = fj.getNichandleSumFlink(data);
         }
         catch (Exception e)
         {
@@ -117,7 +117,7 @@ public class FlinkJobTest
                                        .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "date");
             FlinkJob fj = new FlinkJob();
 
-            fj.getNichandleSumFlink(data);
+//            fj.getNichandleSumFlink(data);
         }
         catch (Exception e)
         {

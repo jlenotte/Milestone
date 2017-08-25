@@ -25,6 +25,8 @@ public class Invoice
         this.date = null;
     }
 
+
+
     public Invoice(String nichandle, String name, String firstName, Double transaction, ZonedDateTime date)
     {
 
@@ -38,6 +40,8 @@ public class Invoice
         //this.date = date;
     }
 
+
+
     /**
      * Getters & Setters
      */
@@ -47,10 +51,14 @@ public class Invoice
         return nichandle;
     }
 
+
+
     public String getName()
     {
         return name;
     }
+
+
 
     public Double getTransaction()
     {
@@ -72,25 +80,35 @@ public class Invoice
         return ZonedDateTime.parse(date, DateTimeFormatter.ISO_ZONED_DATE_TIME);
     }
 
+
+
     public String getFirstName()
     {
         return firstName;
     }
+
+
 
     public void setNichandle(String nichandle)
     {
         this.nichandle = nichandle;
     }
 
+
+
     public void setName(String name)
     {
         this.name = name;
     }
 
+
+
     public void setFirstName(String firstName)
     {
         this.firstName = firstName;
     }
+
+
 
     public void setDate(ZonedDateTime date)
     {
@@ -104,10 +122,14 @@ public class Invoice
         this.date = date;
     }
 
+
+
     public void setTransaction(Double transaction)
     {
         this.transaction = transaction;
     }
+
+
 
     @Override
     public int hashCode()
@@ -115,15 +137,19 @@ public class Invoice
         return super.hashCode();
     }
 
+
+
     @Override
     public boolean equals(Object o)
     {
         return super.equals(o);
     }
 
+
+
     public String toString()
     {
-        return "[Client]" + "NicHandle: " + nichandle + " Nom: " + name + ", Prenom: " + firstName
+        return "[Client]" + "NicHandle: " + nichandle + ", Nom: " + name + ", Prenom: " + firstName
             + ", Montant: " + transaction
             + ", Date: " + date + "\n";
     }

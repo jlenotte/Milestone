@@ -12,16 +12,14 @@ import org.apache.flink.api.common.operators.Order;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.DataSink;
-import org.apache.flink.api.java.operators.MapOperator;
+import org.apache.flink.api.java.tuple.Tuple2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import scala.Tuple2;
 
 public class FlinkJob
 {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(FlinkJob.class);
-
 
 
 
@@ -49,7 +47,6 @@ public class FlinkJob
 
 
 
-
     /**
      * Get top N transactions with Flink method 1 In progress...
      */
@@ -64,10 +61,15 @@ public class FlinkJob
 
 
 
-
     /**
      * Get transactions totals with Flink
+     *
+     * @param data input DataSet
+     * @param limit input Limiter
+     * @return DataSet of Invoice
+     * @deprecated outdated method and pojo conversion
      */
+    @Deprecated
     public DataSet<Invoice> getTransactionTotalsFlink(DataSet<String> data, int limit)
     {
 
@@ -114,56 +116,8 @@ public class FlinkJob
 
 
 
-
     /**
-     * Get the sum of all transactions per nic
-     */
-    public MapOperator<Invoice, Tuple2<String, Double>> getNichandleSumFlink(DataSet<Invoice> data)
-    {
-        MapOperator<Invoice, Tuple2<String, Double>> result = null;
-
-        try
-        {
-            result = data
-                // group by Invoices to get nichandles
-                .groupBy(Invoice::getNichandle)
-                // reduce the transactions
-                .reduce((ReduceFunction<Invoice>) (value1, value2) ->
-                {
-                    LOGGER.debug("value1 "
-                        + value1.getNichandle()
-                        + " / value2 "
-                        + value2.getNichandle());
-                    return new Invoice(value1.getNichandle(),
-                        value1.getName(),
-                        value1.getFirstName(),
-                        value1.getTransaction() + value2.getTransaction(),
-                        value1.getZonedDate());
-                })
-                // map to tuple
-                .map((MapFunction<Invoice, Tuple2<String, Double>>) invoice ->
-                {
-                    String nic = invoice.getNichandle()
-                        + invoice.getName()
-                        + invoice.getFirstName();
-                    Double sum = invoice.getTransaction();
-                    LOGGER.info("MAP FUNCTION : " + nic + " : " + String.valueOf(sum));
-                    return new Tuple2<>(nic, sum);
-                });
-        }
-        catch (Exception e)
-        {
-            LOGGER.error(e.getMessage());
-        }
-
-        return result;
-    }
-
-
-
-
-    /**
-     * Get sum of all transactions for every month
+     * Filter sample
      */
     public DataSet<Invoice> getTransactionsPerMonthFlink(DataSet<Invoice> data)
     {

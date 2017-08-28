@@ -106,13 +106,13 @@
     </dependency>
   </dependencies>
 
-  <distributionManagement>
-    <repository>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>/home/jlenotte/WORKSPACE/FlinkMavenQuickstart/flink-java-project/</url>
-    </repository>
-  </distributionManagement>
+  <!--  <distributionManagement>
+      <repository>
+        <id>corp1</id>
+        <name>Corporate Repository</name>
+        <url>/home/jlenotte/WORKSPACE/FlinkMavenQuickstart/flink-java-project/</url>
+      </repository>
+    </distributionManagement>-->
 
   <profiles>
     <profile>
@@ -269,7 +269,7 @@
               <transformers>
                 <transformer
                   implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.ovh.charlotte.Main</mainClass>
+                  <mainClass>com.ovh.milestone.Main</mainClass>
                 </transformer>
               </transformers>
               <createDependencyReducedPom>false</createDependencyReducedPom>

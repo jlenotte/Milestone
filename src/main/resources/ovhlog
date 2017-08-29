@@ -1,0 +1,396 @@
+  -- Création liste TODO / début du stage
+  -- Semaine 1 : Mise en place outils (IDE/Maven/Flink/Spark)
+
+  created(17-07-17 10:58)
+
+
+
+  @start / LUNDI 17/07
+  @Arrival time : (17-07-17 9:00)
+  ✔ Mise en place environnement @created(17-07-17 10:59) @done (17-07-17 11:29)
+  ✔ Installation JDK @created(17-07-17 10:59) @done (17-07-17 11:01)
+  ✔ Installation IDEA @created(17-07-17 10:59) @done (17-07-17 11:01)
+  ✔ Installation SublimeText + plugins @created(17-07-17 11:00) @done (17-07-17 11:01)
+  ✔ Mise en place Thunderbird @created(17-07-17 11:00)@high @done (17-07-17 11:46)
+  ✔ Stabiliser environnement @created(17-07-17 11:01) @done (17-07-17 17:26)
+  ✔ Mise en place Apache Flink @created(17-07-17 11:50)@high @done (17-07-17 19:00)
+  @Lunch break : (17-07-17 12:10)
+
+  @Afternoon start
+  created(17-07-17 12:47)
+  ✔ Documentation Flink en détails dans la liste toLearn @created(17-07-17 13:16) @done (17-07-18 10:22)
+   ✔ Création MindMap Flink à partir de doc @created(17-07-17 14:55) @done (17-07-17 16:58)
+  ✔ Présentation sujet de stage et vision des projets à réaliser @created(17-07-17 15:00) @done (17-07-17 16:58)
+  ✔ Approfondir le fonctionnement de Flink, plus de doc à faire @created(17-07-17 17:27) @done (17-07-18 10:22)
+  ✔ Discussion certification Hadoop / big data par hortonworks @created(17-07-17 18:58) @done (17-07-17 18:58)
+  @Leaving : (17-07-17 19:23)
+
+
+
+  @start / MARDI 18/07
+  @Arrival time : (17-07-18 09:13)
+   ✔ Préparer diapo Daphnée @created(17-07-18 09:13) @done (17-07-18 11:15)
+ ✔ Déployer un .jar pour tester Flink @created(17-07-18 09:13)@high @done (17-07-18 18:42)
+ ✔ Approfondissement Maven/Flink, apprentissage des pratiques de Flink @created(17-07-18 10:22)@high @done (17-07-18 11:42)
+ ✔ Installation variables d'environnement Maven @created(17-07-18 10:24) @done (17-07-18 11:15)
+ ✔ Approfondissement Flink et génération de project @created(17-07-18 11:42) @done (17-07-24 16:38)
+ ✔ Installer Git @created(17-07-18 11:47) @done (17-07-18 11:47)
+ @Lunch break : (17-07-17 12:00)
+
+ @Afternoon start
+ created(17-07-18 13:15)
+ ✔ Continuer approfondissement Maven/Flink @created(17-07-18 13:20) @done (17-07-18 15:24)
+ ✔ Tutoriel de dataArtisans effectué à 70% avec succès @created(17-07-18 15:24) @done (17-07-18 15:24)
+ ✔ Approfondissement du projet de test Maven/Flink @created(17-07-18 15:24) @done (17-07-18 16:00)
+ ✔ Analyse du code et du fonctionnement de la class WordCount @created(17-07-18 16:00) @done (17-07-18 16:50)
+ ✔ Faire fonctionner Flink avec un voire n Jobs/tasks @created(17-07-18 16:50) @done (17-07-18 17:40)
+ ✔ Démarrage du projet Charlotte @created(17-07-18 17:40) @done (17-07-18 18:33)
+ @Leaving : created(17-07-18 18:45)
+
+
+
+  @start / MERCREDI 19/07
+  @Arrival time :  created(17-07-19 09:03)
+  ✔ Préparer diapo Daphnée @created(17-07-19 09:03) @done (17-07-19 09:30)
+  ✔ Continuer projet Charlotte @created(17-07-19 09:30) @done (17-07-19 13:33)
+  ✔ Fin présentation Olivier & Daphnée @created(17-07-19 11:21) @done (17-07-19 11:22)
+  @Lunch break : created(17-07-19 12:30)
+
+  @Afternoon start
+  created(17-07-19 13:30)
+  ✔ Reprise projet Charlotte @created(17-07-19 13:33) @done (17-07-19 16:51)
+  ✔ Generation aléatoire date et montant @created(17-07-19 14:43) @done (17-07-19 14:43)
+  ✔ Association fichier de données vers ArrayList OK @created(17-07-19 15:13) @done (17-07-19 15:13)
+  ✔ Toujours sur projet Charlotte, recherche sur Aggregations @created(17-07-19 16:51) @done (17-07-24 16:38)
+  @Leaving : @created(17-07-19 18:52)
+
+
+
+  @start / JEUDI 20/07
+  @Arrival time :  created(17-07-20 09:07)
+    ✔ Reprise projet charlotte, re-générer dates avec Time Zones UTC @created(17-07-20 09:09) @done (17-07-20 15:24)
+  @Lunch break : created(17-07-20 12:30)
+
+  @Afternoon start
+  created(17-07-20 13:30)
+  ✔ Ecriture dans un fichier csv réussie @created(17-07-20 15:24) @done (17-07-20 15:24)
+  ✔ Recherche sur les logbacks/loggers @created(17-07-20 15:26) @done (17-07-20 18:41)
+  ✔ Construction tests et premier filtrage @created(17-07-20 18:42) @done (17-07-21 20:01)
+  @Leaving : created(17-07-20 19:41)
+
+
+
+  @start / VENDREDI 21/07
+  @Arrival time : (17-07-21 09:32)
+  ✔ Reprise projet charlotte @created(17-07-21 09:33) @done (17-07-21 11:54)
+  ✔ Recherche sur opencsv @created(17-07-21 11:54) @done (17-07-21 13:15)
+  @Lunch break : created(17-07-21 12:15)
+
+  @Afternoon start
+  created(17-07-21 13:14)
+  ✔ Reprise projet charlotte @created(17-07-21 13:15) @done (17-07-21 18:03)
+  ✔ Avancement et commencement des fonctions d'aggregations et de reduce @created(17-07-21 17:03) @done (17-07-21 20:01)
+  @Leaving : created(17-07-21 20:01)
+
+
+
+  @start / LUNDI 24/07
+  @Arrival time : (17-07-24 09:06)
+  ✔ Reprise projet charlotte, + de recherche sur manipulations & lambda @created(17-07-24 09:14) @done (17-07-24 16:38)
+  ✔ Intro au debugging dans IntelliJ @created(17-07-24 10:30) @done (17-07-24 10:31)
+  ✘ Realisation du top N d'une liste avec lambdas @created(17-07-24 11:13) @cancelled (17-07-24 16:38)
+  @Lunch break :  created(17-07-24 12:33)
+
+  @Afternoon start
+  created(17-07-24 14:09)
+  ✔ Reprise sorting de liste java lambda @created(17-07-24 14:17) @done (17-07-24 15:04)
+  ✘ Tests Bash scripts @created(17-07-24 14:55) @cancelled (17-07-24 16:38)
+  ✘ Approfondissement Maven @created(17-07-24 16:01) @critical @cancelled (17-07-25 09:25)
+  ✔ JDBC Mysql installé @created(17-07-24 18:20) @done (17-07-24 18:57)
+  ✔ MySQL installé @created(17-07-24 18:57) @done (17-07-24 19:21)
+  ✔ Briefing semaine et projet stage @created(17-07-24 19:21) @done (17-07-24 19:21)
+  @Leaving  @created(17-07-24 19:23)
+
+
+
+  @start / MARDI 25/07
+  @Arrival time : (17-07-25 09:24)
+  ✔ Reprise approfondissement Flink @created(17-07-25 09:24) @done (17-07-25 12:58)
+  @Lunch break :  created(17-07-25 12:07)
+
+  @Afternoon start
+  created(17-07-25 12:57)
+  ✔ Reprise approfondissement Flink @created(17-07-25 12:57) @done (17-07-25 19:40)
+    ✔ Demo code/situation réelle Yassine? @created(17-07-25 13:01) @done (17-07-25 15:06)
+  ✔ Demonstration CheckStyle & installation @created(17-07-25 18:41) @done (17-07-25 19:07)
+  ✔ Cleaning de mon code @created(17-07-25 19:07) @done (17-07-25 19:07)
+  @Leaving created(17-07-25 19:40)
+
+
+
+  @start / MERCREDI 26/07
+  @Arrival time : created(17-07-26 09:22)
+  ✔ More lambdas @created(17-07-26 09:23) @done (17-07-26 15:04)
+    ✔ Trying to group & reduce by Date @created(17-07-26 10:11) @done (17-07-26 15:04)
+  @Lunch @created(17-07-26 12:26)
+
+  @Afternoon start
+  created(17-07-26 13:10)
+  ✔ Approfondissemet reduce(), map(), flatMap() @created(17-07-26 13:11) @done (17-07-26 16:17)
+  ✔ Briefing prochaines étapes projet @created(17-07-26 16:17) @done (17-07-26 16:58)
+  ✔ somme mensuelle d'un client @created(17-07-26 18:18) @done (17-07-26 18:18)
+  @Leaving  created(17-07-26 18:20)
+
+
+
+  @start / JEUDI 27/07
+  @Arrival time : created(17-07-27 09:20)
+  ✔ Reprise projet traitements @created(17-07-27 10:12) @done (17-07-27 13:21)
+  @Lunch  @created(17-07-27 12:32)
+
+  @Afternoon start
+  @created(17-07-27 13:21)
+  ✔ Reprise projet traitements @created(17-07-27 13:21) @done (17-07-27 19:08)
+  ✔ HashMap pour ajouter sommes de chaque mois @created(17-07-27 19:08) @done (17-07-27 19:43)
+  @Leaving  created(17-07-27 19:54)
+
+
+
+  @start VENDREDI 28/07
+  @Arrival time : created(17-07-28 09:22)
+  ✔ Reprise meilleurs mois @created(17-07-28 09:24) @done (17-07-28 11:59)
+  ✔ Ajout Nichandle à mon fichier de données @created(17-07-28 11:59) @done (17-07-28 11:59)
+  @Lunch  @created(17-07-28 12:27)
+
+  @Afternoon start
+  @created(17-07-28 13:16)
+  ✔ Manipulation Loggers @created(17-07-28 15:36) @done (17-07-28 15:36)
+  ✔ Reprise traitements de fichier @created(17-07-28 15:36) @done (17-07-28 19:36)
+  ✔ Debriefing et projet pour semaine prochaine avec Yassine @created(17-07-28 19:37) @done (17-07-28 19:37)
+  ✔ Nettoyage code et preparation pour exportation vers programme principal @created(17-07-28 19:37) @done (17-07-28 19:37)
+  @Leaving created(17-07-28 19:37)
+
+
+
+  @Arrival time : created(17-07-31 09:14)
+  ✘ Finir les taches de la semaine dernière ASAP
+  @Lunch @created(17-07-31 12:02)
+
+  @Afternoon start @created(17-07-31 12:45)
+  ✔ Implementation du programme principal, nettoyage et refonte du code et de l'appel des methodes, revisions java... @done (17-07-31 19:26)
+  @Leaving created(17-07-31 19:32)
+
+  @start MARDI 01/08
+  @Arrival time : created(17-08-01 09:25)
+  ✘ Finir programme traitements ASAP @created(17-08-01 09:35)
+  @Lunch created(17-08-01 12:05)
+
+  @Afternoon start @created(17-08-01 13:50)
+  ✘ Finir test methode
+  Leaving @created(17-08-01 19:19)
+
+
+
+  @start MERCREDI 02/08 created(17-08-02 09:24)
+  ✔ Continue tests et cleaning du code @done (17-08-02 11:08)
+  ✔ Plus de tests et optimization des methodes @done (17-08-02 13:47)
+  @Lunch created(17-08-02 12:19)
+
+  @Afternoon start created(17-08-02 13:47)
+  ✔ Plus de tests @done (17-08-02 19:11)
+  @Leaving @created(17-08-02 19:21)
+
+
+
+  @start JEUDI 03/08 created(17-08-03 09:30)
+  ✔ Start flink /!\ @done (17-08-03 11:48)
+  ✔ Fix dependencies @done (17-08-03 11:48)
+  ✘ Convert project to flink @critical @cancelled (17-08-08 16:50)
+  @Lunch created(17-08-03 12:02)
+
+  @Afternoon start @created(17-08-03 13:55)
+  ✔ Convert project to flink @done (17-08-03 19:05)
+  ✔ troubleshooting dependencies @done (17-08-03 19:06)
+  ✔ trying to run a flink job @done (17-08-03 19:49)
+  @Leaving  @created(17-08-03 19:59)
+
+
+
+  @start VENDREDI 04/08 created(17-08-04 09:31)
+  ✔ Remake flink methods @done (17-08-04 13:53)
+  @Lunch created(17-08-04 12:12)
+
+  @Afternoon start created(17-08-04 13:53)
+  ✘ Remake flink methods @cancelled (17-08-04 16:41)
+  ✘ Fail complet du projet Charlotte, trop de lacunes @cancelled (17-08-04 16:42)
+  ✔ retour au bases et définition projet moins lourd @done (17-08-04 19:34)
+  @Leaving @created(17-08-04 19:34)
+
+
+
+  @start LUNDI 07/08 created(17-08-07 09:18)
+  ✔ projet web crawler @created(17-08-07 09:18) @done (17-08-07 13:38)
+  @Lunch  @created(17-08-07 12:00)
+
+  @Afternoon start created(17-08-07 13:38)
+  ✔ web crawler @done (17-08-07 18:26)
+  ✔ project Nerubian almost done. @done (17-08-07 18:26)
+  @Leaving @created(17-08-07 18:26)
+
+
+
+  @start MARDI 08/08 created(17-08-08 08:50)
+  ✔ projet Nerubian à finir @done (17-08-08 13:22)
+  @Lunch break @created(17-08-08 11:35) /!\ urgence perso.
+
+  @Afternoon start created(17-08-08 13:22)
+  ✔ refonte projet Nerubian @done (17-08-08 16:48)
+  ✔ pauffiner Nerubian @done (17-08-08 16:49)
+  @Leaving @created(17-08-08 16:52)
+
+
+
+  @start MERCREDI 09/08 created(17-08-09 09:36)
+  ✔ finir Nerubian @done (17-08-09 13:55)
+  @Lunch break created(17-08-09 11:50)
+
+  @Afternoon start created(17-08-09 13:55)
+  ✔ ajout de SonarQube à IntelliJ @done (17-08-09 14:52)
+  ✔ fixing all the redundancies in the project... @done (17-08-09 16:52)
+  ✔ fixed algorithm @done (17-08-09 19:21)
+  ✔ implemented metadata @done (17-08-09 19:21)
+  @Leaving created(17-08-09 19:21)
+
+
+
+  @start JEUDI 10/08 created(17-08-10 09:38)
+  ✔ finishing more crawler @done (17-08-10 12:01)
+  @Lunch (17-08-10 12:01)
+
+  @Afternoon created(17-08-10 13:55)
+  ✔ make nerubian loop through a list of url's @done (17-08-10 18:41)
+  ✔ must implement better error handling @done (17-08-10 18:42)
+  @Leaving @created(17-08-10 18:42)
+
+
+
+  @start @created(17-08-11 09:29)
+  ✔ error handling @done (17-08-11 11:24)
+  ✘ get specific data from <table> with Jsoup @cancelled (17-08-11 13:30)
+  @Lunch break @created(17-08-11 12:07)
+
+  @Afternoon created(17-08-11 13:29)
+  ✔ get specific data from nested links ... @done (17-08-11 17:52)
+  ✔ Reunion Vincent Terrasi/Daphnee @done (17-08-11 15:04)
+  ✔ finished scraping URL's from CAC40's site with success. must add them to a list to loop through in the main program @done (17-08-11 17:53)
+  @Leaving created(17-08-11 17:53)
+
+
+
+  @start MERCREDI 16/08 @created(17-08-16 09:17)
+  ✔ bilan 1er mois? @done (17-08-17 16:41)
+  ✔ ameliorer Nerubian, essayer de supprimer le hardcoding degeulasse @done (17-08-17 16:41)
+  @Lunch break @created(17-08-16 11:52)
+
+  @Afternoon reated(17-08-16 13:50)
+  ✔ isolate only the company's website link without the bloat links @done (17-08-16 15:58)
+  ✔ research on OpenCorporates & API @done (17-08-16 18:54)
+  ✘ creating csv file from the scraped urls @cancelled (17-08-16 18:54)
+  @Leaving created(17-08-16 18:54)
+
+
+
+  @start JEUDI 17/08 created(17-08-17 09:31)
+  ✔ more work on nerubian @done (17-08-17 12:09)
+  ✔ JSON @done (17-08-17 12:09)
+  @Lunch @created(17-08-17 12:09)
+
+  @Afternoon created(17-08-17 12:57)
+  ✔ research on Factories and Objects @done (17-08-17 15:08)
+  ✔ research on why static methods and variables are considered "Evil" @done (17-08-17 15:08)
+  ✔ point stage 1 - 15:00 @done (17-08-17 16:41)
+  ✘ compare json with my scraping @cancelled (17-08-17 19:16)
+  @Leaving @created(17-08-17 19:16)
+
+  @start VENDREDI 18/08 created(17-08-18 09:35)
+  ✔ more work on json and opencorporate APi @done (17-08-18 13:32)
+  ✘ skill matrix? @cancelled (17-08-18 13:32)
+  @lunch @created(17-08-18 11:48)
+
+  @Afternoon @created(17-08-18 13:32)
+  ✔ more work on json and opencorp API @done (17-08-18 18:10)
+  ✔ firing API requests is functionnal, but got blocked by opencorporates' request limit @done (17-08-18 18:11)
+  ☐ parler a vincent d'opencorp vs altares
+  )leaving @created(17-08-18 18:44)
+
+
+  @start LUNDI 21/08 @created(17-08-21 09:37)
+  ✔ compte rendu OpenCorp/Altares pour Vincent @done (17-08-21 18:43)
+  @Lunch @created(17-08-21 11:57)
+
+  @Afternoon @created(17-08-21 13:30)
+  ✔ Reprise FLINK :: new program 'Milestone' @done (17-08-21 18:43)
+  @Leaving @created(17-08-21 19:00)
+
+  @start MARDI 22/08 @created(17-08-22 09:35)
+  ✔ program Milestone skeleton setup @done (17-08-22 12:11)
+  ✔ réunion DSI 11-12 @done (17-08-22 12:11)
+  @Lunch @created(17-08-22 12:11)
+
+  @Afternoon @created(17-08-22 14:30)
+  ✔ Milestone - topN @done (17-08-22 17:40)
+  ✘ fix redundant DataSource input... @cancelled (17-08-22 17:56)
+  @Leaving @created(17-08-22 17:57)
+
+  @start MERCREDI 23/08 @created(17-08-23 09:35)
+  ✔ Milestone - fix datasources @done (17-08-25 16:32)
+  ✔ Get pojo out of csv @done (17-08-25 16:32)
+  @Lunch created(17-08-23 12:01)
+
+  @Afternoon @created(17-08-23 13:01)
+  ✔ pause culture/veille avec yassine @done (17-08-23 14:02)
+  ✔ reprise projet  @created(17-08-23 14:02) @done (17-08-23 19:56)
+  ✔ mapping d'objets String -> ZonedDateTime et vice versa @done (17-08-23 19:57)
+  @Leaving @created(17-08-23 19:57)
+
+  @start JEUDI 24/08 @created(17-08-24 09:41)
+  ✔ discussions dev jeux et kickstarter et youtube @done (17-08-24 11:31)
+  ✔ recherche sur code source flink yassine @done (17-08-24 11:31)
+  ✔ reprise projet Milestone @done (17-08-24 11:31)
+  @Lunch @created(17-08-24 11:49)
+
+  @Afternoon @created(17-08-24 14:32)
+  ✔ reprise flink @done (17-08-24 19:53)
+  ✔ leçon map/flatMap avec yassine @done (17-08-24 19:53)
+  @Leaving @created(17-08-24 19:54)
+
+  @start @created(17-08-25 09:45)
+  ✔ reprise totals & tops flink @done (17-08-25 12:08)
+  @Lunch @created(17-08-25 12:08)
+
+  @Afternoon @created(17-08-25 13:31)
+  ✔ reprise totals & tops flink @done (17-08-25 18:11)
+  ✔ point équipe @done (17-08-25 16:31)
+  ✔ total per year/month flink functionnal @done (17-08-25 18:11)
+  @leaving @created(17-08-25 18:41)
+
+  @start LUNDI 28/08 @created(17-08-28 09:39)
+  ✔ news tech @done (17-08-28 10:06)
+  ✔ get best customers, get best months @done (17-08-28 12:02)
+  ✔ reading doc about ParameterTools @done (17-08-28 12:27)
+  @Lunch @created(17-08-28 12:27)
+
+  @afternoon @created(17-08-28 13:30)
+  ✔ more on ParameterTools @done (17-08-28 15:52)
+  ✔ ParameterTool implemented in Milestone @done (17-08-28 15:52)
+  ✔ running jobs on Flink @done (17-08-28 16:46)
+  ✔ listed all the undone flink operations to do them asap @done (17-08-28 18:41)
+  @Leaving @created(17-08-28 18:47)
+
+  @start MARDI 29/08 @created(17-08-29 09:40)
+  ✔ try to do the undone flink operations asap @done (17-08-29 12:01)
+  @Lunch created(17-08-29 12:01)
+
+  @Afternoon @created(17-08-29 14:05)
+  ✘ joins and unions, must implement parametertool/switch @cancelled (17-08-29 18:57)
+  ✔ ExchangeRate file downloaded from banque de france @done (17-08-29 19:15)

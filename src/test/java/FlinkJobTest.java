@@ -5,12 +5,14 @@ import com.esotericsoftware.kryo.io.Output;
 import com.ovh.milestone.DataSource;
 import com.ovh.milestone.FlinkJob;
 import com.ovh.milestone.Invoice;
+import com.ovh.milestone.JoinDatasets;
 import java.io.IOException;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.api.java.operators.JoinOperator.DefaultJoin;
 import org.apache.flink.api.java.operators.MapOperator;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -124,4 +126,28 @@ public class FlinkJobTest
             LOGGER.error(e.getMessage());
         }
     }
+
+
+
+    @Test
+    public void joindata()
+    {
+        // Boilerplate
+        final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+
+        env.registerType(Invoice.class);
+        String csvFile = "dataBase.csv";
+        String csvFile2 = "dataBase2.csv";
+        DataSet<Invoice> data1 = env.readCsvFile(csvFile)
+                                    .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "date");
+        DataSet<Invoice> data2 = env.readCsvFile(csvFile2)
+                                    .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "date");
+
+        JoinDatasets jd = new JoinDatasets();
+        DefaultJoin<Invoice, Invoice> result = jd.joinSets(data1, data2);
+
+
+    }
+
+
 }

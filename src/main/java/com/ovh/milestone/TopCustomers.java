@@ -11,14 +11,10 @@ import org.slf4j.LoggerFactory;
 
 public class TopCustomers
 {
-
     private static final Logger LOGGER = LoggerFactory.getLogger(YearMonthTotal.class);
-
-
 
     /**
      * Get the 100 best customers (name + transaction)
-     *
      * @param data Takes a DataSet in
      * @param limit limits the operation to the 100 first elements
      * @return Returns a GroupReduceOperator
@@ -65,10 +61,8 @@ public class TopCustomers
     }
 
 
-
     /**
      * Get the 100 best customers (nic + transaction)
-     *
      * @param data Takes a DataSet in
      * @param limit limits the operation to the 100 first elements
      * @return Returns a GroupReduceOperator

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 import org.apache.flink.api.java.operators.GroupReduceOperator;
+import org.apache.flink.api.java.operators.JoinOperator.DefaultJoin;
 import org.apache.flink.api.java.operators.MapOperator;
 import org.apache.flink.api.java.operators.ReduceOperator;
 import org.apache.flink.core.fs.FileSystem;
@@ -33,27 +34,25 @@ public class Main
      */
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
-
+    private static final String PROPERTIES = "milestone.properties";
 
 
     public static void main(String[] args) throws Exception
     {
+
         // Setup properties
-        String configFile = "milestone.properties";
-        ParameterTool config = ParameterTool.fromPropertiesFile(configFile);
+        ParameterTool config = ParameterTool.fromPropertiesFile(PROPERTIES);
 
-
-        // Boilerplate
+        // Setup Flink environment
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
-        //
-        String csvFile = config.get("csvFile", "data.csv");
+        // Setup input data
+        String csvFile = config.get("csvFile", "dataBase.csv");
+        String csvFile2 = config.get("csvFile2", "dataBase2.csv");
         System.out.println(csvFile);
 
-        //
+        // Setup output data
         String resultFile = config.get("resultFile");
-
-        //
         String resultCsvFile = config.get("resultCsvFile");
         System.out.println(resultCsvFile);
 
@@ -67,34 +66,100 @@ public class Main
         YearMonthTotal yearMonthTotal = new YearMonthTotal();
         PerNicTotal nicTotal = new PerNicTotal();
         TopCustomers topCusts = new TopCustomers();
+        JoinDatasets jd = new JoinDatasets();
+
+
 
         // Read CSV file and convert to POJO
         DataSet<Invoice> data = env.readCsvFile(csvFile)
                                    .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "date");
 
+        DataSet<Invoice> data2 = env.readCsvFile(csvFile2)
+                                    .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "date");
+
+        String choice = config.get("choice", "peryeartot");
+
+        switch (choice)
+        {
+            case "join":
+            {
+                // Join
+                DefaultJoin<Invoice, Invoice> result = jd.joinSets(data, data2);
+
+                // Get the result in a DataSink
+                result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
+                break;
+            }
+            case "union":
+            {
+                // Union
+                DataSet<Invoice> result = jd.unionSets(data, data2);
+
+                // Get the result in a DataSink
+                result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
+                break;
+            }
+            case "topcust":
+            {
+                // Get top customers
+                GroupReduceOperator result2 = topCusts.getTopCustomersByNic(data, limit100);
+
+                // Get the result in a DataSink
+                result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
+                break;
+            }
+            case "pernictot":
+            {
+                // Get the total of transactions per nichandle
+                MapOperator<Invoice, Tuple2<String, Double>> result2 = nicTotal.getNichandleSumFlink(data);
+
+                // Get the result in a DataSink
+                result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
+                break;
+            }
+            case "peryearmmtot":
+            {
+                // Get the sum of all transactions per year/MM
+                ReduceOperator<Tuple2<String, Double>> result2 = yearMonthTotal.getTotalPerYearMonth(data);
+
+                // Get the result in a DataSink
+                result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
+                break;
+            }
+
+            default:
+            {
+                break;
+            }
+        }
 
         // Try to run the code
         try
         {
+            // Join
+            // DefaultJoin<Invoice, Invoice> result = jd.joinSets(data, data2);
+
+            // Union
+            DataSet<Invoice> result = jd.unionSets(data, data2);
 
             // Get the total of transactions per nichandle
-            MapOperator<Invoice, Tuple2<String, Double>> result = nicTotal
-                .getNichandleSumFlink(data);
-
-            // Get the sum of all transactions per year/MM
-            // ReduceOperator<Tuple2<String, Double>> result = yearMonthTotal.getTotalPerYearMonth(data);
+            // MapOperator<Invoice, Tuple2<String, Double>> result2 = nicTotal.getNichandleSumFlink(result);
 
             // Get top customers
-            // GroupReduceOperator result = topCusts.getTopCustomersByNic(data, limit100);
+            GroupReduceOperator result2 = topCusts.getTopCustomersByNic(result, limit100);
 
             // Get top months
             // GroupReduceOperator result = yearMonthTotal.getBestMonths(data, 100);
 
+            // Get the sum of all transactions per year/MM
+            // ReduceOperator<Tuple2<String, Double>> result2 = yearMonthTotal.getTotalPerYearMonth(result);
 
             // Get the result in a DataSink
-            result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
+            result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
+
 
         }
+
         catch (Exception e)
         {
             LOGGER.error(e.getMessage());

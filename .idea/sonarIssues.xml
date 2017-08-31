@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$MAVEN_REPOSITORY$/com/twitter/chill-java/0.7.4/chill-java-0.7.4.pom">
           <value>
             <set />
@@ -18,12 +23,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/Currency.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/DataSource.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/DatabaseWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/FlinkJobs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CodenameCharlotte/src/main/java/com/ovh/charlotte/Invoice.java">
           <value>
             <set />
           </value>
@@ -59,6 +79,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ColumnPositionMappingStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ConversionLine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ConversionMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Currencies.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ExchangeRate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currency.java">
           <value>
             <set />
           </value>
@@ -144,6 +199,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/ovhlog">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/CheckDateTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/CurrencyTest.java">
           <value>
             <set />
           </value>

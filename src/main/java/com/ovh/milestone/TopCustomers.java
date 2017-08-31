@@ -9,9 +9,17 @@ import org.apache.flink.api.java.tuple.Tuple2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Sort and get the top N best customers per revenue, AKA the 'biggest' customers
+ */
+
+
 public class TopCustomers
 {
-    private static final Logger LOGGER = LoggerFactory.getLogger(YearMonthTotal.class);
+
+    private static final Logger LOG = LoggerFactory.getLogger(YearMonthTotal.class);
+
+
 
     /**
      * Get the 100 best customers (name + transaction)
@@ -54,11 +62,12 @@ public class TopCustomers
         }
         catch (Exception e)
         {
-            LOGGER.error(e.getMessage());
+            LOG.error(e.getMessage());
         }
 
         return result;
     }
+
 
 
     /**
@@ -107,7 +116,7 @@ public class TopCustomers
         }
         catch (Exception e)
         {
-            LOGGER.error(e.getMessage());
+            LOG.error(e.getMessage());
         }
 
         return result;

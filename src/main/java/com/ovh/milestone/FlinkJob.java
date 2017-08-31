@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
 public class FlinkJob
 {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(FlinkJob.class);
+    private static final Logger LOG = LoggerFactory.getLogger(FlinkJob.class);
 
 
 
@@ -82,13 +82,16 @@ public class FlinkJob
                 // parse string to double
                 double value = Double.parseDouble(splitter[3]);
 
+                // curr
+                String currency = splitter[4];
+
                 // parse string to zdate
-                ZonedDateTime date = ZonedDateTime.parse(splitter[4]);
+                ZonedDateTime date = ZonedDateTime.parse(splitter[5]);
 
                 // assign values to object params
 
                 return new Invoice(splitter[0], splitter[1], splitter[2],
-                    value, date);
+                    value, currency, date);
             })
             // Group by Invoices to get nichandles
             .groupBy(Invoice::getNichandle)
@@ -97,6 +100,7 @@ public class FlinkJob
                 invoice.getName(),
                 invoice.getFirstName(),
                 invoice.getTransaction() + t1.getTransaction(),
+                invoice.getCurrency(),
                 invoice.getZonedDate()))
             // Map to Tuple
             .map((MapFunction<Invoice, Tuple2<String, Double>>) invoice ->

@@ -7,10 +7,14 @@ import org.apache.flink.api.java.tuple.Tuple2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Join and Union of two DataSets
+ */
+
 public class JoinDatasets implements JoinFunction<Invoice, Tuple2<String, Double>, Tuple2<String, Double>>
 {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(JoinDatasets.class);
+    private static final Logger LOG = LoggerFactory.getLogger(JoinDatasets.class);
 
 
 

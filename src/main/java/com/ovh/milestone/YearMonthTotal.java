@@ -12,10 +12,14 @@ import org.apache.flink.api.java.tuple.Tuple2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
+/**
+ * Calculate the total revenue for each month per year
+ */
 public class YearMonthTotal
 {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(YearMonthTotal.class);
+    private static final Logger LOG = LoggerFactory.getLogger(YearMonthTotal.class);
 
 
 
@@ -56,7 +60,7 @@ public class YearMonthTotal
         }
         catch (Exception e)
         {
-            LOGGER.error(e.getMessage());
+            LOG.error(e.getMessage());
         }
         return result;
     }
@@ -102,7 +106,7 @@ public class YearMonthTotal
         }
         catch (Exception e)
         {
-            LOGGER.error(e.getMessage());
+            LOG.error(e.getMessage());
         }
         return result;
     }

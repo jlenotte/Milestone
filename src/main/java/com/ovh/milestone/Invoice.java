@@ -3,6 +3,10 @@ package com.ovh.milestone;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Invoice POJO
+ */
+
 public class Invoice
 {
 
@@ -11,6 +15,7 @@ public class Invoice
     private String name;
     private String firstName;
     private Double transaction;
+    private String currency;
     private String date;
 
 
@@ -22,22 +27,23 @@ public class Invoice
         this.name = null;
         this.firstName = null;
         this.transaction = null;
+        this.currency = null;
         this.date = null;
     }
 
 
 
-    public Invoice(String nichandle, String name, String firstName, Double transaction, ZonedDateTime date)
+    public Invoice(String nichandle, String name, String firstName, Double transaction, String currency, ZonedDateTime date)
     {
 
         this.nichandle = nichandle;
         this.name = name;
         this.firstName = firstName;
         this.transaction = transaction;
+        this.currency = currency;
 
         // Format ZDT into String using ISO Date conversion
         this.date = date.format(DateTimeFormatter.ISO_ZONED_DATE_TIME);
-        //this.date = date;
     }
 
 
@@ -67,9 +73,15 @@ public class Invoice
 
 
 
+    public String getCurrency()
+    {
+        return currency;
+    }
+
+
+
     public String getDate()
     {
-        //return ZonedDateTime.parse(date, DateTimeFormatter.ISO_ZONED_DATE_TIME);
         return date;
     }
 
@@ -124,6 +136,13 @@ public class Invoice
 
 
 
+    public void setCurrency(String currency)
+    {
+        this.currency = currency;
+    }
+
+
+
     public void setTransaction(Double transaction)
     {
         this.transaction = transaction;
@@ -149,8 +168,11 @@ public class Invoice
 
     public String toString()
     {
-        return "[Client]" + "NicHandle: " + nichandle + ", Nom: " + name + ", Prenom: " + firstName
-            + ", Montant: " + transaction
+        return "[Invoice]" + "NicHandle: " + nichandle
+            + ", Name: " + name
+            + ", First name: " + firstName
+            + ", Sum: " + transaction
+            + ", Currency:" + currency
             + ", Date: " + date + "\n";
     }
 }

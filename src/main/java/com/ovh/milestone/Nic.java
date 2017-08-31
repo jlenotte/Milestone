@@ -1,5 +1,9 @@
 package com.ovh.milestone;
 
+/**
+ * Nichandle POJO
+ */
+
 public class Nic
 {
 

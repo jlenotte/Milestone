@@ -1,10 +1,9 @@
-package com.ovh.milestone.Conversion;
+package com.ovh.milestone.conversion;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class ConversionLine
-{
+public class InvoiceLine {
 
     // Attributes
     private String date;
@@ -13,24 +12,21 @@ public class ConversionLine
 
 
     // Constructor
-    public ConversionLine()
-    {
+    public InvoiceLine() {
         this.date = null;
         this.sum = null;
     }
 
 
 
-    public ConversionLine(ZonedDateTime date, Double sum)
-    {
+    public InvoiceLine(ZonedDateTime date, Double sum) {
         this.date = date.format(DateTimeFormatter.ofPattern("yyyy/MM/dd"));
         this.sum = sum;
     }
 
 
 
-    public ConversionLine(String date, Double sum)
-    {
+    public InvoiceLine(String date, Double sum) {
         this.date = date;
         this.sum = sum;
     }
@@ -39,44 +35,38 @@ public class ConversionLine
 
 
 
-    public String getDate()
-    {
+    public String getDate() {
         return date;
     }
 
 
 
-    public ZonedDateTime getZonedDate()
-    {
+    public ZonedDateTime getZonedDate() {
         return ZonedDateTime.parse(date, DateTimeFormatter.ofPattern("yyyy/MM/dd"));
     }
 
 
 
-    public void setDate(String date)
-    {
+    public void setDate(String date) {
         this.date = date;
     }
 
 
 
-    public Double getSum()
-    {
+    public Double getSum() {
         return sum;
     }
 
 
 
-    public void setSum(Double sum)
-    {
+    public void setSum(Double sum) {
         this.sum = sum;
     }
 
 
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "ConversionMap[" +
             "date='" + date + '\'' +
             ", sum=" + sum +

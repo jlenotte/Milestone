@@ -1,6 +1,5 @@
 package com.ovh.milestone;
 
-import com.ovh.milestone.Conversion.ExchangeRate;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.DataSet;
@@ -15,8 +14,7 @@ import org.slf4j.LoggerFactory;
  */
 
 
-public class PerNicTotal
-{
+public class PerNicTotal {
 
     private static final Logger LOG = LoggerFactory.getLogger(PerNicTotal.class);
 
@@ -25,12 +23,11 @@ public class PerNicTotal
     /**
      * Get the sum of all transactions per nic
      */
-    public MapOperator<Invoice, Tuple2<String, Double>> getNichandleSumFlink(DataSet<Invoice> data)
-    {
+    public MapOperator<Invoice, Tuple2<String, Double>> getNichandleSumFlink(
+        DataSet<Invoice> data) {
         MapOperator<Invoice, Tuple2<String, Double>> result = null;
         LOG.info("TEST");
-        try
-        {
+        try {
             result = data
                 // group by Invoices to get nichandles
                 .groupBy(Invoice::getNichandle)
@@ -58,27 +55,23 @@ public class PerNicTotal
                 // map to tuple
                 // WARNING : this declaration is left as a non-lambda intentionnally
                 // as Type Erasure issues occur during the Lambda processing.
-                .map(new MapFunction<Invoice, Tuple2<String, Double>>()
-                {
+                .map(new MapFunction<Invoice, Tuple2<String, Double>>() {
                     @Override
-                    public Tuple2<String, Double> map(Invoice invoice) throws Exception
-                    {
+                    public Tuple2<String, Double> map(Invoice invoice) throws Exception {
                         LOG.info("TEST");
                         String nic;
                         Double sum;
-                        ExchangeRate exRate = new ExchangeRate();
 
                         // if USD, convert to EUR
-                        if (invoice.getCurrency().equals("USD"))
-                        {
-                            sum = exRate.convertToEur(invoice.getTransaction());
+                        if (invoice.getCurrency().equals("USD")) {
+                            // implement currency conversion here
+                            // sum = exRate.convertToEur(invoice.getTransaction());
+                            sum = invoice.getTransaction();
                             nic = invoice.getNichandle()
                                 + invoice.getName()
                                 + invoice.getFirstName()
                                 + "(Previously " + invoice.getCurrency() + ")";
-                        }
-                        else
-                        {
+                        } else {
                             sum = invoice.getTransaction();
                             nic = invoice.getNichandle()
                                 + invoice.getName()
@@ -89,9 +82,7 @@ public class PerNicTotal
                         return new Tuple2<>(nic, sum);
                     }
                 });
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             LOG.error(e.getMessage());
         }
 

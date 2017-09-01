@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12860c1c-f0f5-4f4a-8582-3d17a3e27752" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ConversionLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Currencies.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ExchangeRate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currency.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CheckDateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CurrencyTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/ExchangeRate.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/Category.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/ExchangeRates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ExchangeRatesTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Currencies.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ExchangeRate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/CurrencyTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ConversionLine.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/InvoiceLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currency.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/JoinDatasets.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/JoinDatasets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Nic.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Nic.java" />
@@ -22,6 +23,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/TopCustomers.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/TopCustomers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/YearMonthTotal.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/YearMonthTotal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/milestone.properties" afterPath="$PROJECT_DIR$/src/main/resources/milestone.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CheckDateTest.java" afterPath="$PROJECT_DIR$/src/test/java/CheckDateTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,13 +34,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Milestone$CurrencyTest_csvToMap.coverage" NAME="CurrencyTest.csvToMap Coverage Results" MODIFIED="1504265854395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CurrencyTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CurrencyTest.java">
+      <file leaf-file-name="ExchangeRatesTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ExchangeRatesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="63" column="38" lean-forward="true" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+            <state relative-caret-position="532">
+              <caret line="122" column="42" lean-forward="true" selection-start-line="122" selection-start-column="42" selection-end-line="122" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,12 +108,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/ovhlog" />
         <option value="$PROJECT_DIR$/src/main/resources/milestone.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/ExchangeRate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currency.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CheckDateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/JoinDatasets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/PerNicTotal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/TopCustomers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Nic.java" />
@@ -116,11 +118,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ExchangeRate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/YearMonthTotal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ConversionMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ConversionLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ColumnPositionMappingStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Currencies.java" />
         <option value="$PROJECT_DIR$/src/test/java/CurrencyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/Currencies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/PerNicTotal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CheckDateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/BillingLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/InvoiceLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/ExchangeRates.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExchangeRatesTest.java" />
       </list>
     </option>
   </component>
@@ -231,7 +242,7 @@
             <path>
               <item name="Milestone" type="b2602c69:ProjectViewProjectNode" />
               <item name="Milestone" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="result.csv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Milestone" type="b2602c69:ProjectViewProjectNode" />
@@ -266,7 +277,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="milestone" type="462c0819:PsiDirectoryNode" />
-              <item name="Conversion" type="462c0819:PsiDirectoryNode" />
+              <item name="conversion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Milestone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Milestone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="milestone" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Milestone" type="b2602c69:ProjectViewProjectNode" />
@@ -287,11 +307,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Milestone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Milestone" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,14 +338,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CurrencyTest.testMapElementVide">
-    <configuration name="CheckDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="ExchangeRatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Milestone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckDateTest" />
+      <option name="MAIN_CLASS_NAME" value="ExchangeRatesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -344,15 +359,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CurrencyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExchangeRatesTest.csvToMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Milestone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CurrencyTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ExchangeRatesTest" />
+      <option name="METHOD_NAME" value="csvToMap" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -364,13 +379,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CurrencyTest.csvToMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExchangeRatesTest.csvToMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Milestone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CurrencyTest" />
+      <option name="MAIN_CLASS_NAME" value="ExchangeRatesTest" />
       <option name="METHOD_NAME" value="csvToMapTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -384,13 +399,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CurrencyTest.testMapElementVide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExchangeRatesTest.testMapElementVide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Milestone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CurrencyTest" />
+      <option name="MAIN_CLASS_NAME" value="ExchangeRatesTest" />
       <option name="METHOD_NAME" value="testMapElementVide" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -407,7 +422,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ovh.milestone.Conversion.*" />
+          <option name="PATTERN" value="com.ovh.milestone.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -505,18 +520,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckDateTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CurrencyTest.csvToMapTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CurrencyTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CurrencyTest.testMapElementVide" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExchangeRatesTest.csvToMapTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExchangeRatesTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExchangeRatesTest.testMapElementVide" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExchangeRatesTest.csvToMap" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CurrencyTest.testMapElementVide" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CurrencyTest.csvToMapTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CurrencyTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckDateTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExchangeRatesTest.csvToMapTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExchangeRatesTest.csvToMap" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExchangeRatesTest.testMapElementVide" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExchangeRatesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -658,39 +673,46 @@
       <option name="project" value="LOCAL" />
       <updated>1504027023643</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Still developping Xchange Rate, must do more Tests, and make the code more defensive.">
+      <created>1504202830612</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1504202830612</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CurrencyTest_csvToMapTest - 2017.08.31 at 18h 59m 55s.xml">
+    <history-entry file="CurrencyTest_csvToMap - 2017.09.01 at 16h 02m 08s.xml">
+      <configuration name="CurrencyTest.csvToMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyTest_csvToMap - 2017.09.01 at 16h 09m 44s.xml">
+      <configuration name="CurrencyTest.csvToMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyTest_csvToMap - 2017.09.01 at 16h 28m 56s.xml">
+      <configuration name="CurrencyTest.csvToMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyTest_csvToMap - 2017.09.01 at 16h 29m 51s.xml">
+      <configuration name="CurrencyTest.csvToMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyTest_csvToMap - 2017.09.01 at 16h 31m 21s.xml">
+      <configuration name="CurrencyTest.csvToMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyTest_csvToMapTest - 2017.09.01 at 16h 49m 40s.xml">
       <configuration name="CurrencyTest.csvToMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyTest_csvToMapTest - 2017.08.31 at 19h 00m 48s.xml">
+    <history-entry file="CurrencyTest_csvToMapTest - 2017.09.01 at 17h 14m 31s.xml">
       <configuration name="CurrencyTest.csvToMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyTest_csvToMapTest - 2017.08.31 at 19h 01m 08s.xml">
-      <configuration name="CurrencyTest.csvToMapTest" configurationId="JUnit" />
+    <history-entry file="ExchangeRatesTest_csvToMapTest - 2017.09.01 at 17h 21m 43s.xml">
+      <configuration name="ExchangeRatesTest.csvToMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyTest_csvToMapTest - 2017.08.31 at 19h 02m 30s.xml">
-      <configuration name="CurrencyTest.csvToMapTest" configurationId="JUnit" />
+    <history-entry file="ExchangeRatesTest_csvToMapTest - 2017.09.01 at 17h 30m 30s.xml">
+      <configuration name="ExchangeRatesTest.csvToMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyTest_csvToMapTest - 2017.08.31 at 19h 02m 55s.xml">
-      <configuration name="CurrencyTest.csvToMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyTest_csvToMapTest - 2017.08.31 at 19h 14m 07s.xml">
-      <configuration name="CurrencyTest.csvToMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyTest_csvToMapTest - 2017.08.31 at 19h 23m 05s.xml">
-      <configuration name="CurrencyTest.csvToMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyTest_testMapElementVide - 2017.08.31 at 19h 23m 13s.xml">
-      <configuration name="CurrencyTest.testMapElementVide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyTest_testMapElementVide - 2017.08.31 at 19h 24m 21s.xml">
-      <configuration name="CurrencyTest.testMapElementVide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyTest_testMapElementVide - 2017.08.31 at 19h 24m 35s.xml">
-      <configuration name="CurrencyTest.testMapElementVide" configurationId="JUnit" />
+    <history-entry file="ExchangeRatesTest_csvToMapTest - 2017.09.01 at 17h 30m 55s.xml">
+      <configuration name="ExchangeRatesTest.csvToMapTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -714,6 +736,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.50545096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1916" y="49" width="1928" height="1035" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -774,12 +797,23 @@
     <MESSAGE value="Total per Year/Month functionnal." />
     <MESSAGE value="Top customers per nic/name functionnal, implemented ParameterTool, still in progress." />
     <MESSAGE value="Must still implement ParameterTool, and a new functionnality ExchangeRate." />
-    <option name="LAST_COMMIT_MESSAGE" value="Must still implement ParameterTool, and a new functionnality ExchangeRate." />
+    <MESSAGE value="Still developping Xchange Rate, must do more Tests, and make the code more defensive." />
+    <option name="LAST_COMMIT_MESSAGE" value="Still developping Xchange Rate, must do more Tests, and make the code more defensive." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="115" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ExchangeRatesTest.java</url>
+          <line>27</line>
+          <properties class="ExchangeRatesTest" method="csvToMap">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="122" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -789,28 +823,28 @@
         <state relative-caret-position="2465">
           <caret line="145" column="39" lean-forward="true" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
           <folding>
-            <marker date="1504182305660" expanded="true" signature="35:102" ph="..." />
-            <marker date="1504182305660" expanded="true" signature="104:133" ph="/**...*/" />
-            <marker date="1504182305660" expanded="true" signature="395:579" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="712:1025" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1033:1069" ph="/**...*/" />
-            <marker date="1504182305660" expanded="true" signature="1108:1141" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1177:1205" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1248:1283" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1323:1355" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1391:1419" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1467:1555" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1596:1629" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1684:1727" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1772:1805" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1860:1903" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1955:2034" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2079:2112" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2165:2206" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2265:2312" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2360:2400" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2458:2497" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2534:2788" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="35:102" ph="..." />
+            <marker date="1504278086324" expanded="true" signature="104:127" ph="/**...*/" />
+            <marker date="1504278086324" expanded="true" signature="385:569" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="698:1011" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1019:1055" ph="/**...*/" />
+            <marker date="1504278086324" expanded="true" signature="1090:1123" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1155:1183" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1222:1257" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1293:1325" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1357:1385" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1429:1517" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1554:1587" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1638:1681" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1722:1755" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1806:1849" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1897:1976" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2017:2050" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2099:2140" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2195:2242" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2286:2326" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2380:2419" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2452:2706" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -820,10 +854,10 @@
         <state relative-caret-position="1564">
           <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
-            <marker date="1504192124212" expanded="true" signature="35:787" ph="..." />
-            <marker date="1504192124212" expanded="true" signature="786:787" ph="..." />
-            <marker date="1504192124212" expanded="true" signature="814:1682" ph="/**...*/" />
-            <marker date="1504192124212" expanded="true" signature="1949:6648" ph="{...}" />
+            <marker date="1504279524854" expanded="true" signature="35:722" ph="..." />
+            <marker date="1504279524854" expanded="true" signature="721:722" ph="..." />
+            <marker date="1504279524854" expanded="true" signature="749:1617" ph="/**...*/" />
+            <marker date="1504279524854" expanded="true" signature="1880:6484" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -833,10 +867,10 @@
         <state relative-caret-position="748">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <marker date="1504192124212" expanded="true" signature="35:787" ph="..." />
-            <marker date="1504192124212" expanded="true" signature="786:787" ph="..." />
-            <marker date="1504192124212" expanded="true" signature="814:1682" ph="/**...*/" />
-            <marker date="1504192124212" expanded="true" signature="1949:6648" ph="{...}" />
+            <marker date="1504279524854" expanded="true" signature="35:722" ph="..." />
+            <marker date="1504279524854" expanded="true" signature="721:722" ph="..." />
+            <marker date="1504279524854" expanded="true" signature="749:1617" ph="/**...*/" />
+            <marker date="1504279524854" expanded="true" signature="1880:6484" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -846,10 +880,10 @@
         <state relative-caret-position="884">
           <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
-            <marker date="1504192124212" expanded="true" signature="35:787" ph="..." />
-            <marker date="1504192124212" expanded="true" signature="786:787" ph="..." />
-            <marker date="1504192124212" expanded="true" signature="814:1682" ph="/**...*/" />
-            <marker date="1504192124212" expanded="true" signature="1949:6648" ph="{...}" />
+            <marker date="1504279524854" expanded="true" signature="35:722" ph="..." />
+            <marker date="1504279524854" expanded="true" signature="721:722" ph="..." />
+            <marker date="1504279524854" expanded="true" signature="749:1617" ph="/**...*/" />
+            <marker date="1504279524854" expanded="true" signature="1880:6484" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -986,13 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1284,250 +1311,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheckDateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1504172787732" expanded="true" signature="7:257" ph="..." />
-            <marker date="1504172787732" expanded="true" signature="334:411" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1504107174322" expanded="true" signature="103:130" ph="{...}" />
-            <marker date="1504107174322" expanded="true" signature="165:192" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1504182530889" expanded="true" signature="35:266" ph="..." />
-            <marker date="1504182530889" expanded="true" signature="454:1980" ph="{...}" />
-            <marker date="1504182530889" expanded="true" signature="1033:1252" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
-          <folding>
-            <marker date="1504103809829" expanded="true" signature="35:657" ph="..." />
-            <marker date="1504103809829" expanded="true" signature="770:823" ph="/**...*/" />
-            <marker date="1504103809829" expanded="true" signature="904:1383" ph="{...}" />
-            <marker date="1504103809829" expanded="true" signature="1391:1467" ph="/**...*/" />
-            <marker date="1504103809829" expanded="true" signature="1585:1805" ph="{...}" />
-            <marker date="1504103809829" expanded="true" signature="1813:2029" ph="/**...*/" />
-            <marker date="1504103809829" expanded="true" signature="2137:3832" ph="{...}" />
-            <marker date="1504103809829" expanded="true" signature="2252:2779" ph="{...}" />
-            <marker date="1504103809829" expanded="true" signature="3348:3603" ph="{...}" />
-            <marker date="1504103809829" expanded="true" signature="3840:3933" ph="/**...*/" />
-            <marker date="1504103809829" expanded="true" signature="4034:4395" ph="{...}" />
-            <marker date="1504103809829" expanded="true" signature="4163:4387" ph="{...}" />
-            <marker date="1504103809829" expanded="true" signature="4277:4373" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/JoinDatasets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1504181985215" expanded="true" signature="35:301" ph="..." />
-            <marker date="1504181985215" expanded="true" signature="303:350" ph="/**...*/" />
-            <marker date="1504181985215" expanded="true" signature="552:588" ph="/**...*/" />
-            <marker date="1504181985215" expanded="true" signature="691:814" ph="{...}" />
-            <marker date="1504181985215" expanded="true" signature="938:1032" ph="{...}" />
-            <marker date="1504181985215" expanded="true" signature="1040:1077" ph="/**...*/" />
-            <marker date="1504181985215" expanded="true" signature="1168:1210" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Nic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-544">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding>
-            <marker date="1504182336032" expanded="true" signature="28:59" ph="/**...*/" />
-            <marker date="1504182336032" expanded="true" signature="529:936" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="1190:1659" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="1700:1733" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="1788:1831" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="1867:1895" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="1940:1973" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2014:2047" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2102:2145" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2184:2215" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2266:2305" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2340:2367" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2410:2441" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2478:2507" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2554:2589" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2635:2673" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2738:2791" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2834:2869" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="2928:2975" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3019:3055" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3116:3165" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3202:3231" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3278:3313" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3355:3389" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3446:3491" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3537:3575" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3640:3693" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3736:3771" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3830:3877" ph="{...}" />
-            <marker date="1504182336032" expanded="true" signature="3928:4605" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/TopCustomers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-947">
-          <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
-          <folding>
-            <marker date="1504182214460" expanded="true" signature="35:408" ph="..." />
-            <marker date="1504182214460" expanded="true" signature="410:505" ph="/**...*/" />
-            <marker date="1504182214460" expanded="true" signature="626:842" ph="/**...*/" />
-            <marker date="1504182214460" expanded="true" signature="928:2335" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="1168:1572" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="1306:1554" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="1774:2124" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="1962:2106" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="2342:2557" ph="/**...*/" />
-            <marker date="1504182214460" expanded="true" signature="2696:4316" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="2984:3553" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="3122:3535" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="3755:4105" ph="{...}" />
-            <marker date="1504182214460" expanded="true" signature="3943:4087" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/YearMonthTotal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <marker date="1504183609813" expanded="true" signature="35:542" ph="..." />
-            <marker date="1504183609813" expanded="true" signature="545:613" ph="/**...*/" />
-            <marker date="1504183609813" expanded="true" signature="737:795" ph="/**...*/" />
-            <marker date="1504183609813" expanded="true" signature="894:2347" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="1153:1609" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="1291:1591" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="1869:2219" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="2057:2201" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="2355:2393" ph="/**...*/" />
-            <marker date="1504183609813" expanded="true" signature="2525:4086" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="2813:3269" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="2951:3251" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="3529:3879" ph="{...}" />
-            <marker date="1504183609813" expanded="true" signature="3717:3861" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1229">
-          <caret line="93" column="79" lean-forward="true" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="79" />
-          <folding>
-            <marker date="1504182305660" expanded="true" signature="35:102" ph="..." />
-            <marker date="1504182305660" expanded="true" signature="104:133" ph="/**...*/" />
-            <marker date="1504182305660" expanded="true" signature="395:579" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="712:1025" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1033:1069" ph="/**...*/" />
-            <marker date="1504182305660" expanded="true" signature="1108:1141" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1177:1205" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1248:1283" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1323:1355" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1391:1419" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1467:1555" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1596:1629" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1684:1727" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1772:1805" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1860:1903" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="1955:2034" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2079:2112" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2165:2206" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2265:2312" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2360:2400" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2458:2497" ph="{...}" />
-            <marker date="1504182305660" expanded="true" signature="2534:2788" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ExchangeRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <marker date="1504183609805" expanded="false" signature="46:905" ph="..." />
-            <marker date="1504183609805" expanded="true" signature="118:905" ph="..." />
-            <marker date="1504183609805" expanded="true" signature="907:1286" ph="/**...*/" />
-            <marker date="1504183609805" expanded="true" signature="1405:1566" ph="/**...*/" />
-            <marker date="1504183609805" expanded="true" signature="1645:1673" ph="{...}" />
-            <marker date="1504183609805" expanded="true" signature="1681:1714" ph="/**...*/" />
-            <marker date="1504183609805" expanded="true" signature="1761:1789" ph="{...}" />
-            <marker date="1504183609805" expanded="true" signature="1797:1830" ph="/**...*/" />
-            <marker date="1504183609805" expanded="true" signature="1877:1905" ph="{...}" />
-            <marker date="1504183609805" expanded="true" signature="1913:2008" ph="/**...*/" />
-            <marker date="1504183609805" expanded="true" signature="2041:2049" ph="{}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="79" selection-end-column="93" />
-          <folding>
-            <marker date="1504192124212" expanded="true" signature="35:787" ph="..." />
-            <marker date="1504192124212" expanded="true" signature="786:787" ph="..." />
-            <marker date="1504192124212" expanded="true" signature="814:1682" ph="/**...*/" />
-            <marker date="1504192124212" expanded="true" signature="1949:6648" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ConversionLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <marker date="1504192124224" expanded="true" signature="46:113" ph="..." />
-            <marker date="1504192124224" expanded="true" signature="265:323" ph="{...}" />
-            <marker date="1504192124224" expanded="true" signature="387:494" ph="{...}" />
-            <marker date="1504192124224" expanded="true" signature="553:610" ph="{...}" />
-            <marker date="1504192124224" expanded="true" signature="672:700" ph="{...}" />
-            <marker date="1504192124224" expanded="true" signature="748:840" ph="{...}" />
-            <marker date="1504192124224" expanded="true" signature="885:918" ph="{...}" />
-            <marker date="1504192124224" expanded="true" signature="953:980" ph="{...}" />
-            <marker date="1504192124224" expanded="true" signature="1023:1054" ph="{...}" />
-            <marker date="1504192124224" expanded="true" signature="1105:1229" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="28:53" ph="/**...*/" />
+            <marker date="1504278086264" expanded="true" signature="519:926" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="1176:1645" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="1682:1715" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="1766:1809" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="1841:1869" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="1910:1943" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="1980:2013" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2064:2107" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2142:2173" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2220:2259" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2290:2317" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2356:2387" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2420:2449" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2492:2527" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2569:2607" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2668:2721" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2760:2795" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2850:2897" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="2937:2973" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3030:3079" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3112:3141" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3184:3219" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3257:3291" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3344:3389" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3431:3469" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3530:3583" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3622:3657" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3712:3759" ph="{...}" />
+            <marker date="1504278086264" expanded="true" signature="3806:4483" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1590,23 +1408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/PerNicTotal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-          <folding>
-            <marker date="1504182056171" expanded="true" signature="35:398" ph="..." />
-            <marker date="1504182056171" expanded="true" signature="401:464" ph="/**...*/" />
-            <marker date="1504182056171" expanded="true" signature="584:642" ph="/**...*/" />
-            <marker date="1504182056171" expanded="true" signature="747:3513" ph="{...}" />
-            <marker date="1504182056171" expanded="true" signature="1123:1823" ph="{...}" />
-            <marker date="1504182056171" expanded="true" signature="1841:2019" ph="//..." />
-            <marker date="1504182056171" expanded="true" signature="2108:3384" ph="{...}" />
-            <marker date="1504182056171" expanded="true" signature="2248:3366" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Double.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1645,28 +1446,290 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Currencies.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="100" column="12" lean-forward="true" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+        <state relative-caret-position="556">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <marker date="1504202279126" expanded="true" signature="46:324" ph="..." />
-            <marker date="1504202279126" expanded="true" signature="326:354" ph="/**...*/" />
-            <marker date="1504202279126" expanded="true" signature="526:2513" ph="{...}" />
-            <marker date="1504202279126" expanded="true" signature="876:946" ph="//..." />
-            <marker date="1504202279126" expanded="true" signature="1144:1290" ph="//..." />
-            <marker date="1504202279126" expanded="true" signature="1473:1572" ph="//..." />
-            <marker date="1504202279126" expanded="true" signature="2521:2570" ph="/**...*/" />
-            <marker date="1504202279126" expanded="true" signature="2622:2952" ph="{...}" />
-            <marker date="1504202279126" expanded="true" signature="3001:3029" ph="{...}" />
+            <marker date="1500970618886" expanded="false" signature="3:117" ph="/.../" />
+            <marker date="1500970618886" expanded="true" signature="385:408" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="458:481" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="609:632" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="672:695" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="799:822" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="921:944" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="979:1002" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1050:1073" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1115:1138" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1190:1213" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1306:1329" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1410:1433" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1483:1506" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1534:1557" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1563:1593" ph="/**...*/" />
+            <marker date="1500970618886" expanded="true" signature="1681:1704" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1759:1782" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1846:1869" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="1977:2000" ph="{}" />
+            <marker date="1500970618886" expanded="true" signature="2041:2064" ph="{}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CurrencyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="63" column="38" lean-forward="true" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <marker date="1504278868947" expanded="true" signature="62:108" ph="/**...*/" />
+            <marker date="1504278868947" expanded="true" signature="909:1456" ph="{...}" />
+            <marker date="1504278868947" expanded="true" signature="1492:2078" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/ExchangeRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckDateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1504279301241" expanded="true" signature="0:22" ph="..." />
+            <marker date="1504279301241" expanded="true" signature="100:108" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/InvoiceLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1504279524866" expanded="true" signature="46:113" ph="..." />
+            <marker date="1504279524866" expanded="true" signature="257:315" ph="{...}" />
+            <marker date="1504279524866" expanded="true" signature="374:481" ph="{...}" />
+            <marker date="1504279524866" expanded="true" signature="533:590" ph="{...}" />
+            <marker date="1504279524866" expanded="true" signature="648:676" ph="{...}" />
+            <marker date="1504279524866" expanded="true" signature="720:812" ph="{...}" />
+            <marker date="1504279524866" expanded="true" signature="853:886" ph="{...}" />
+            <marker date="1504279524866" expanded="true" signature="917:944" ph="{...}" />
+            <marker date="1504279524866" expanded="true" signature="983:1014" ph="{...}" />
+            <marker date="1504279524866" expanded="true" signature="1061:1185" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1504279815783" expanded="true" signature="105:132" ph="{...}" />
+            <marker date="1504279815783" expanded="true" signature="167:194" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <marker date="1504278086268" expanded="true" signature="35:266" ph="..." />
+            <marker date="1504278086268" expanded="true" signature="452:1926" ph="{...}" />
+            <marker date="1504278086268" expanded="true" signature="995:1214" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <marker date="1504278086324" expanded="true" signature="35:657" ph="..." />
+            <marker date="1504278086324" expanded="true" signature="770:823" ph="/**...*/" />
+            <marker date="1504278086324" expanded="true" signature="900:1379" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1387:1463" ph="/**...*/" />
+            <marker date="1504278086324" expanded="true" signature="1577:1797" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1805:2021" ph="/**...*/" />
+            <marker date="1504278086324" expanded="true" signature="2125:3820" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2240:2767" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="3336:3591" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="3828:3928" ph="/**...*/" />
+            <marker date="1504278086324" expanded="true" signature="4025:4358" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="4142:4350" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="4240:4336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="48" lean-forward="true" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="48" />
+          <folding>
+            <marker date="1504278086324" expanded="true" signature="35:102" ph="..." />
+            <marker date="1504278086324" expanded="true" signature="104:127" ph="/**...*/" />
+            <marker date="1504278086324" expanded="true" signature="385:569" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="698:1011" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1019:1055" ph="/**...*/" />
+            <marker date="1504278086324" expanded="true" signature="1090:1123" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1155:1183" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1222:1257" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1293:1325" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1357:1385" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1429:1517" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1554:1587" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1638:1681" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1722:1755" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1806:1849" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="1897:1976" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2017:2050" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2099:2140" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2195:2242" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2286:2326" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2380:2419" ph="{...}" />
+            <marker date="1504278086324" expanded="true" signature="2452:2706" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/JoinDatasets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1504278086340" expanded="true" signature="35:301" ph="..." />
+            <marker date="1504278086340" expanded="true" signature="303:344" ph="/**...*/" />
+            <marker date="1504278086340" expanded="true" signature="546:582" ph="/**...*/" />
+            <marker date="1504278086340" expanded="true" signature="681:804" ph="{...}" />
+            <marker date="1504278086340" expanded="true" signature="924:1018" ph="{...}" />
+            <marker date="1504278086340" expanded="true" signature="1026:1063" ph="/**...*/" />
+            <marker date="1504278086340" expanded="true" signature="1150:1192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/PerNicTotal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="66" column="59" lean-forward="true" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding>
+            <marker date="1504279210404" expanded="true" signature="28:348" ph="..." />
+            <marker date="1504279210404" expanded="false" signature="35:348" ph="..." />
+            <marker date="1504279210404" expanded="true" signature="351:408" ph="/**...*/" />
+            <marker date="1504279210404" expanded="true" signature="528:586" ph="/**...*/" />
+            <marker date="1504279210404" expanded="true" signature="687:3384" ph="{...}" />
+            <marker date="1504279210404" expanded="true" signature="1055:1755" ph="{...}" />
+            <marker date="1504279210404" expanded="true" signature="1773:1951" ph="//..." />
+            <marker date="1504279210404" expanded="true" signature="2024:3271" ph="{...}" />
+            <marker date="1504279210404" expanded="true" signature="2144:3253" ph="{...}" />
+            <marker date="1504279210404" expanded="true" signature="2406:2527" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/TopCustomers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <marker date="1504278086332" expanded="true" signature="35:408" ph="..." />
+            <marker date="1504278086332" expanded="true" signature="410:499" ph="/**...*/" />
+            <marker date="1504278086332" expanded="true" signature="623:846" ph="/**...*/" />
+            <marker date="1504278086332" expanded="true" signature="928:2239" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="1144:1528" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="1262:1510" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="1714:2044" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="1882:2026" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="2247:2469" ph="/**...*/" />
+            <marker date="1504278086332" expanded="true" signature="2604:4128" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="2868:3417" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="2986:3399" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="3603:3933" ph="{...}" />
+            <marker date="1504278086332" expanded="true" signature="3771:3915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/YearMonthTotal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <marker date="1504278086312" expanded="true" signature="35:542" ph="..." />
+            <marker date="1504278086312" expanded="true" signature="545:607" ph="/**...*/" />
+            <marker date="1504278086312" expanded="true" signature="731:789" ph="/**...*/" />
+            <marker date="1504278086312" expanded="true" signature="884:2241" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="1119:1555" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="1237:1537" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="1799:2129" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="1967:2111" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="2249:2287" ph="/**...*/" />
+            <marker date="1504278086312" expanded="true" signature="2415:3880" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="2679:3115" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="2797:3097" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="3359:3689" ph="{...}" />
+            <marker date="1504278086312" expanded="true" signature="3527:3671" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="98" column="36" lean-forward="false" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+          <folding>
+            <marker date="1504279524854" expanded="true" signature="35:722" ph="..." />
+            <marker date="1504279524854" expanded="true" signature="721:722" ph="..." />
+            <marker date="1504279524854" expanded="true" signature="749:1617" ph="/**...*/" />
+            <marker date="1504279524854" expanded="true" signature="1880:6484" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/ExchangeRates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1504279853959" expanded="true" signature="40:314" ph="..." />
+            <marker date="1504279853959" expanded="true" signature="316:643" ph="/**...*/" />
+            <marker date="1504279853959" expanded="true" signature="1007:2421" ph="{...}" />
+            <marker date="1504279853959" expanded="true" signature="2020:2128" ph="//..." />
+            <marker date="1504279853959" expanded="true" signature="2429:2463" ph="/**...*/" />
+            <marker date="1504279853959" expanded="true" signature="2523:2671" ph="{...}" />
+            <marker date="1504279853959" expanded="true" signature="2679:2742" ph="/**...*/" />
+            <marker date="1504279853959" expanded="true" signature="2787:3075" ph="{...}" />
+            <marker date="1504279853959" expanded="true" signature="2798:2911" ph="//..." />
+            <marker date="1504279853959" expanded="true" signature="3083:3113" ph="/**...*/" />
+            <marker date="1504279853959" expanded="true" signature="3170:3564" ph="{...}" />
+            <marker date="1504279853959" expanded="true" signature="3572:3750" ph="/**...*/" />
+            <marker date="1504279853959" expanded="true" signature="3813:4004" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExchangeRatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="122" column="42" lean-forward="true" selection-start-line="122" selection-start-column="42" selection-end-line="122" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

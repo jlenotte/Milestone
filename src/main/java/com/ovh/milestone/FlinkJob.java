@@ -16,8 +16,7 @@ import org.apache.flink.api.java.tuple.Tuple2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class FlinkJob
-{
+public class FlinkJob {
 
     private static final Logger LOG = LoggerFactory.getLogger(FlinkJob.class);
 
@@ -26,8 +25,7 @@ public class FlinkJob
     /**
      * Get top N transactions with Stream
      */
-    public List<Invoice> getTopTransactions(List<Invoice> list, int amount)
-    {
+    public List<Invoice> getTopTransactions(List<Invoice> list, int amount) {
         // Boilerplate
         List<Invoice> resultList;
         Comparator<Invoice> byTransaction;
@@ -50,8 +48,8 @@ public class FlinkJob
     /**
      * Get top N transactions with Flink method 1 In progress...
      */
-    public DataSink<Invoice> getTopTransactionsFlink(ExecutionEnvironment env, DataSet<Invoice> data, int limit)
-    {
+    public DataSink<Invoice> getTopTransactionsFlink(ExecutionEnvironment env,
+                                                     DataSet<Invoice> data, int limit) {
         // Sort & limit the data
         return data
             .map((MapFunction<Invoice, Invoice>) invoice -> invoice)
@@ -70,8 +68,7 @@ public class FlinkJob
      * @deprecated outdated method and pojo conversion
      */
     @Deprecated
-    public DataSet<Invoice> getTransactionTotalsFlink(DataSet<String> data, int limit)
-    {
+    public DataSet<Invoice> getTransactionTotalsFlink(DataSet<String> data, int limit) {
 
         // Convert to POJO
         return data
@@ -122,18 +119,16 @@ public class FlinkJob
 
     /**
      * Filter sample
+     *
      * @deprecated filtering sample for educational purposes
      */
     @Deprecated
-    public DataSet<Invoice> getTransactionsPerMonthFlink(DataSet<Invoice> data)
-    {
+    public DataSet<Invoice> getTransactionsPerMonthFlink(DataSet<Invoice> data) {
         return data
             // filter by wanted year & month
-            .filter(new FilterFunction<Invoice>()
-            {
+            .filter(new FilterFunction<Invoice>() {
                 @Override
-                public boolean filter(Invoice value) throws Exception
-                {
+                public boolean filter(Invoice value) throws Exception {
                     return value.getZonedDate().getMonth() == Month.JANUARY;
                 }
             });

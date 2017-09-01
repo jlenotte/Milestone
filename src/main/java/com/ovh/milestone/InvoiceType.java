@@ -1,7 +1,6 @@
 package com.ovh.milestone;
 
-public enum InvoiceType
-{
+public enum InvoiceType {
     BILLING,
     REFUND;
 }

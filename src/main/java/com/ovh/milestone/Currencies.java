@@ -1,21 +1,18 @@
 package com.ovh.milestone;
 
-public enum Currency
-{
+public enum Currencies {
     EUR,
     USD;
 
 
 
-    public Currency setEur()
-    {
+    public Currencies setEur() {
         return EUR;
     }
 
 
 
-    public Currency setUsd()
-    {
+    public Currencies setUsd() {
         return USD;
     }
 }

@@ -1,14 +1,13 @@
 package com.ovh.milestone;
 
-import com.ovh.milestone.Conversion.ConversionLine;
-import com.ovh.milestone.Conversion.Currencies;
+import com.ovh.milestone.conversion.InvoiceLine;
+import com.ovh.milestone.util.ExchangeRates;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.GroupReduceOperator;
 import org.apache.flink.api.java.operators.JoinOperator.DefaultJoin;
 import org.apache.flink.api.java.operators.MapOperator;
 import org.apache.flink.api.java.operators.ReduceOperator;
-import org.apache.flink.api.java.operators.SortedGrouping;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.core.fs.FileSystem;
@@ -16,8 +15,7 @@ import org.apache.flink.core.fs.FileSystem.WriteMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Main
-{
+public class Main {
 
     /**
      * Program Milestone is a revamp of the project Charlotte which is basically a program that
@@ -39,8 +37,7 @@ public class Main
 
 
 
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
 
         // Setup properties
         ParameterTool config = ParameterTool.fromPropertiesFile(PROPERTIES);
@@ -67,7 +64,7 @@ public class Main
         PerNicTotal nicTotal = new PerNicTotal();
         TopCustomers topCusts = new TopCustomers();
         JoinDatasets jd = new JoinDatasets();
-        Currencies curr = new Currencies();
+        ExchangeRates curr = new ExchangeRates();
 
         // Read CSV file and convert to POJO
         DataSet<Invoice> data = env.readCsvFile(csvFile)
@@ -76,15 +73,13 @@ public class Main
         DataSet<Invoice> data2 = env.readCsvFile(csvFile2)
                                     .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
 
-        DataSet<ConversionLine> currData = env.readCsvFile(csvFile3)
-                                              .pojoType(ConversionLine.class, "date", "sum");
+        DataSet<InvoiceLine> currData = env.readCsvFile(csvFile3)
+                                           .pojoType(InvoiceLine.class, "date", "sum");
 
         String choice = config.get("choice");
 
-        switch (choice)
-        {
-            case "join":
-            {
+        switch (choice) {
+            case "join": {
                 // Join
                 DefaultJoin<Invoice, Invoice> result = jd.joinSets(data, data2);
 
@@ -92,8 +87,7 @@ public class Main
                 result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
                 break;
             }
-            case "union":
-            {
+            case "union": {
                 // Union
                 DataSet<Invoice> result = jd.unionSets(data, data2);
 
@@ -101,8 +95,7 @@ public class Main
                 result.writeAsText(resultCsvFile, WriteMode.OVERWRITE);
                 break;
             }
-            case "topcust":
-            {
+            case "topcust": {
                 // Get top customers
                 GroupReduceOperator result2 = topCusts.getTopCustomersByNic(data, limit);
 
@@ -110,8 +103,7 @@ public class Main
                 result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
                 break;
             }
-            case "pernictot":
-            {
+            case "pernictot": {
                 // Get the total of transactions per nichandle
                 MapOperator<Invoice, Tuple2<String, Double>> result2 = nicTotal.getNichandleSumFlink(data);
 
@@ -119,8 +111,7 @@ public class Main
                 result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
                 break;
             }
-            case "peryearmmtot":
-            {
+            case "peryearmmtot": {
                 // Get the sum of all transactions per year/MM
                 ReduceOperator<Tuple2<String, Double>> result2 = yearMonthTotal.getTotalPerYearMonth(data);
 
@@ -128,14 +119,12 @@ public class Main
                 result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
                 break;
             }
-            case "currencymapping":
-            {
+            case "currencymapping": {
 
                 break;
             }
 
-            default:
-            {
+            default: {
                 break;
             }
         }

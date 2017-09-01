@@ -4,8 +4,7 @@ package com.ovh.milestone;
  * Nichandle POJO
  */
 
-public class Nic
-{
+public class Nic {
 
     // Attributes
     private String nichandle;
@@ -25,8 +24,7 @@ public class Nic
 
 
     // Constructor
-    public Nic()
-    {
+    public Nic() {
         this.nichandle = null;
         this.name = null;
         this.firstName = null;
@@ -44,8 +42,9 @@ public class Nic
 
 
 
-    public Nic(String nichandle, String name, String firstName, String address, String tel, String email, String billingCountry, String companyName, String socialReason, String siren, String companyTel, String companyAddress, String companyType)
-    {
+    public Nic(String nichandle, String name, String firstName, String address, String tel,
+               String email, String billingCountry, String companyName, String socialReason,
+               String siren, String companyTel, String companyAddress, String companyType) {
         this.nichandle = nichandle;
         this.name = name;
         this.firstName = firstName;
@@ -63,191 +62,164 @@ public class Nic
 
 
 
-    public String getNichandle()
-    {
+    public String getNichandle() {
         return nichandle;
     }
 
 
 
-    public void setNichandle(String nichandle)
-    {
+    public void setNichandle(String nichandle) {
         this.nichandle = nichandle;
     }
 
 
 
-    public String getName()
-    {
+    public String getName() {
         return name;
     }
 
 
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 
 
 
-    public String getFirstName()
-    {
+    public String getFirstName() {
         return firstName;
     }
 
 
 
-    public void setFirstName(String firstName)
-    {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
 
 
-    public String getAddress()
-    {
+    public String getAddress() {
         return address;
     }
 
 
 
-    public void setAddress(String address)
-    {
+    public void setAddress(String address) {
         this.address = address;
     }
 
 
 
-    public String getTel()
-    {
+    public String getTel() {
         return tel;
     }
 
 
 
-    public void setTel(String tel)
-    {
+    public void setTel(String tel) {
         this.tel = tel;
     }
 
 
 
-    public String getEmail()
-    {
+    public String getEmail() {
         return email;
     }
 
 
 
-    public void setEmail(String email)
-    {
+    public void setEmail(String email) {
         this.email = email;
     }
 
 
 
-    public String getBillingCountry()
-    {
+    public String getBillingCountry() {
         return billingCountry;
     }
 
 
 
-    public void setBillingCountry(String billingCountry)
-    {
+    public void setBillingCountry(String billingCountry) {
         this.billingCountry = billingCountry;
     }
 
 
 
-    public String getCompanyName()
-    {
+    public String getCompanyName() {
         return companyName;
     }
 
 
 
-    public void setCompanyName(String companyName)
-    {
+    public void setCompanyName(String companyName) {
         this.companyName = companyName;
     }
 
 
 
-    public String getSocialReason()
-    {
+    public String getSocialReason() {
         return socialReason;
     }
 
 
 
-    public void setSocialReason(String socialReason)
-    {
+    public void setSocialReason(String socialReason) {
         this.socialReason = socialReason;
     }
 
 
 
-    public String getSiren()
-    {
+    public String getSiren() {
         return siren;
     }
 
 
 
-    public void setSiren(String siren)
-    {
+    public void setSiren(String siren) {
         this.siren = siren;
     }
 
 
 
-    public String getCompanyTel()
-    {
+    public String getCompanyTel() {
         return companyTel;
     }
 
 
 
-    public void setCompanyTel(String companyTel)
-    {
+    public void setCompanyTel(String companyTel) {
         this.companyTel = companyTel;
     }
 
 
 
-    public String getCompanyAddress()
-    {
+    public String getCompanyAddress() {
         return companyAddress;
     }
 
 
 
-    public void setCompanyAddress(String companyAddress)
-    {
+    public void setCompanyAddress(String companyAddress) {
         this.companyAddress = companyAddress;
     }
 
 
 
-    public String getCompanyType()
-    {
+    public String getCompanyType() {
         return companyType;
     }
 
 
 
-    public void setCompanyType(String companyType)
-    {
+    public void setCompanyType(String companyType) {
         this.companyType = companyType;
     }
 
 
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "Nic{" +
             "nichandle='" + nichandle + '\'' +
             ", name='" + name + '\'' +

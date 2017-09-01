@@ -7,8 +7,7 @@ import java.time.format.DateTimeFormatter;
  * Invoice POJO
  */
 
-public class Invoice
-{
+public class Invoice {
 
     // Attributes
     private String nichandle;
@@ -21,8 +20,7 @@ public class Invoice
 
 
     // Constructor
-    public Invoice()
-    {
+    public Invoice() {
         this.nichandle = null;
         this.name = null;
         this.firstName = null;
@@ -33,8 +31,8 @@ public class Invoice
 
 
 
-    public Invoice(String nichandle, String name, String firstName, Double transaction, String currency, ZonedDateTime date)
-    {
+    public Invoice(String nichandle, String name, String firstName, Double transaction,
+                   String currency, ZonedDateTime date) {
 
         this.nichandle = nichandle;
         this.name = name;
@@ -52,122 +50,105 @@ public class Invoice
      * Getters & Setters
      */
 
-    public String getNichandle()
-    {
+    public String getNichandle() {
         return nichandle;
     }
 
 
 
-    public String getName()
-    {
+    public String getName() {
         return name;
     }
 
 
 
-    public Double getTransaction()
-    {
+    public Double getTransaction() {
         return transaction;
     }
 
 
 
-    public String getCurrency()
-    {
+    public String getCurrency() {
         return currency;
     }
 
 
 
-    public String getDate()
-    {
+    public String getDate() {
         return date;
     }
 
 
 
-    public ZonedDateTime getZonedDate()
-    {
+    public ZonedDateTime getZonedDate() {
         return ZonedDateTime.parse(date, DateTimeFormatter.ISO_ZONED_DATE_TIME);
     }
 
 
 
-    public String getFirstName()
-    {
+    public String getFirstName() {
         return firstName;
     }
 
 
 
-    public void setNichandle(String nichandle)
-    {
+    public void setNichandle(String nichandle) {
         this.nichandle = nichandle;
     }
 
 
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 
 
 
-    public void setFirstName(String firstName)
-    {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
 
 
-    public void setDate(ZonedDateTime date)
-    {
+    public void setDate(ZonedDateTime date) {
         this.date = date.format(DateTimeFormatter.ISO_ZONED_DATE_TIME);
     }
 
 
 
-    public void setDate(String date)
-    {
+    public void setDate(String date) {
         this.date = date;
     }
 
 
 
-    public void setCurrency(String currency)
-    {
+    public void setCurrency(String currency) {
         this.currency = currency;
     }
 
 
 
-    public void setTransaction(Double transaction)
-    {
+    public void setTransaction(Double transaction) {
         this.transaction = transaction;
     }
 
 
 
     @Override
-    public int hashCode()
-    {
+    public int hashCode() {
         return super.hashCode();
     }
 
 
 
     @Override
-    public boolean equals(Object o)
-    {
+    public boolean equals(Object o) {
         return super.equals(o);
     }
 
 
 
-    public String toString()
-    {
+    public String toString() {
         return "[Invoice]" + "NicHandle: " + nichandle
             + ", Name: " + name
             + ", First name: " + firstName

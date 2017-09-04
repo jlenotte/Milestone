@@ -1,7 +1,9 @@
 package com.ovh.milestone;
 
+import com.ovh.milestone.conversion.Convert;
+import com.ovh.milestone.conversion.ForexRate;
 import com.ovh.milestone.conversion.InvoiceLine;
-import com.ovh.milestone.util.ExchangeRates;
+import com.ovh.milestone.util.ExchangeRateMapping;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.GroupReduceOperator;
@@ -45,13 +47,14 @@ public class Main {
         // Setup Flink environment
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
-        // Setup input data
+        // Setup input data1
         String csvFile = config.get("csvFile3", "dataBase3.csv");
         String csvFile2 = config.get("csvFile2", "dataBase2.csv");
         String csvFile3 = config.get("csvFile4", "dataLines.csv");
+        String forex = config.get("forex", "forex.csv");
         System.out.println(csvFile);
 
-        // Setup output data
+        // Setup output data1
         String resultFile = config.get("resultFile");
         String resultCsvFile = config.get("resultCsvFile");
         System.out.println(resultCsvFile);
@@ -64,11 +67,12 @@ public class Main {
         PerNicTotal nicTotal = new PerNicTotal();
         TopCustomers topCusts = new TopCustomers();
         JoinDatasets jd = new JoinDatasets();
-        ExchangeRates curr = new ExchangeRates();
+        Convert conv = new Convert();
+        ExchangeRateMapping curr = new ExchangeRateMapping();
 
         // Read CSV file and convert to POJO
-        DataSet<Invoice> data = env.readCsvFile(csvFile)
-                                   .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
+        DataSet<Invoice> data1 = env.readCsvFile(csvFile)
+                                    .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
 
         DataSet<Invoice> data2 = env.readCsvFile(csvFile2)
                                     .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
@@ -76,12 +80,15 @@ public class Main {
         DataSet<InvoiceLine> currData = env.readCsvFile(csvFile3)
                                            .pojoType(InvoiceLine.class, "date", "sum");
 
+        DataSet<ForexRate> data3 = env.readCsvFile(forex)
+                                      .pojoType(ForexRate.class, "date", "forex");
+
         String choice = config.get("choice");
 
         switch (choice) {
             case "join": {
                 // Join
-                DefaultJoin<Invoice, Invoice> result = jd.joinSets(data, data2);
+                DefaultJoin<Invoice, Invoice> result = jd.joinSets(data1, data2);
 
                 // Get the result in a DataSink
                 result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
@@ -89,7 +96,7 @@ public class Main {
             }
             case "union": {
                 // Union
-                DataSet<Invoice> result = jd.unionSets(data, data2);
+                DataSet<Invoice> result = jd.unionSets(data1, data2);
 
                 // Get the result in a DataSink
                 result.writeAsText(resultCsvFile, WriteMode.OVERWRITE);
@@ -97,7 +104,7 @@ public class Main {
             }
             case "topcust": {
                 // Get top customers
-                GroupReduceOperator result2 = topCusts.getTopCustomersByNic(data, limit);
+                GroupReduceOperator result2 = topCusts.getTopCustomersByNic(data1, limit);
 
                 // Get the result in a DataSink
                 result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
@@ -105,7 +112,8 @@ public class Main {
             }
             case "pernictot": {
                 // Get the total of transactions per nichandle
-                MapOperator<Invoice, Tuple2<String, Double>> result2 = nicTotal.getNichandleSumFlink(data);
+                MapOperator<Invoice, Tuple2<String, Double>> result2 = nicTotal
+                    .getNichandleSumFlink(data1);
 
                 // Get the result in a DataSink
                 result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
@@ -113,7 +121,7 @@ public class Main {
             }
             case "peryearmmtot": {
                 // Get the sum of all transactions per year/MM
-                ReduceOperator<Tuple2<String, Double>> result2 = yearMonthTotal.getTotalPerYearMonth(data);
+                ReduceOperator<Tuple2<String, Double>> result2 = yearMonthTotal.getTotalPerYearMonth(data1);
 
                 // Get the result in a DataSink
                 result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
@@ -121,6 +129,11 @@ public class Main {
             }
             case "currencymapping": {
 
+                break;
+            }
+            case "processforex": {
+                DataSet<Invoice> result = conv.compareForex(data1, data3);
+                result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
                 break;
             }
 
@@ -134,10 +147,10 @@ public class Main {
         try
         {
             // Join
-            // DefaultJoin<Invoice, Invoice> result = jd.joinSets(data, data2);
+            // DefaultJoin<Invoice, Invoice> result = jd.joinSets(data1, data2);
 
             // Union
-            DataSet<Invoice> result = jd.unionSets(data, data2);
+            DataSet<Invoice> result = jd.unionSets(data1, data2);
 
             // Get the total of transactions per nichandle
             // MapOperator<Invoice, Tuple2<String, Double>> result2 = nicTotal.getNichandleSumFlink(result);
@@ -146,7 +159,7 @@ public class Main {
             GroupReduceOperator result2 = topCusts.getTopCustomersByNic(result, limit100);
 
             // Get top months
-            // GroupReduceOperator result = yearMonthTotal.getBestMonths(data, 100);
+            // GroupReduceOperator result = yearMonthTotal.getBestMonths(data1, 100);
 
             // Get the sum of all transactions per year/MM
             // ReduceOperator<Tuple2<String, Double>> result2 = yearMonthTotal.getTotalPerYearMonth(result);

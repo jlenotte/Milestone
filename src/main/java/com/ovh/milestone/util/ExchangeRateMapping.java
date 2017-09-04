@@ -1,7 +1,11 @@
 package com.ovh.milestone.util;
 
 import com.opencsv.CSVReader;
+import com.ovh.milestone.conversion.ForexRate;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -21,11 +25,11 @@ import org.slf4j.LoggerFactory;
  * file's data (date format & currency) 3. If the quality of the data is met, map the dates &
  * currencies as K, V
  */
-public class ExchangeRates {
+public class ExchangeRateMapping {
 
     // This map will contain dates(Strings) as Key
     // and FOREX rates (Doubles) as Values
-    private static final Logger LOG = LoggerFactory.getLogger(ExchangeRates.class.getName());
+    private static final Logger LOG = LoggerFactory.getLogger(ExchangeRateMapping.class.getName());
     public static final Map<String, Double> map = new TreeMap<>();
 
 
@@ -33,35 +37,54 @@ public class ExchangeRates {
     public Map<String, Double> csvToMap(String csvFile) throws IOException {
 
         Double lastKnownXRate = null;
+        File f = new File("forex.csv");
 
-        // Read the CSV file
-        try (CSVReader read = new CSVReader(new FileReader(csvFile), ',')) {
-            String[] line;
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(f, false))) {
 
-            // Read every line as long as it is not null
-            while ((line = read.readNext()) != null) {
+            // Read the CSV file
+            try (CSVReader read = new CSVReader(new FileReader(csvFile), ',')) {
+                String[] line;
 
-                // Check that our line is splitted correctly
-                if (line.length >= 2) {
+                // Read every line as long as it is not null
+                while ((line = read.readNext()) != null) {
 
-                    // Check that we have a correct K & V
-                    if (line[0] != null && isCorrectDate(line[0]) && isCorrectXRate(line[1])) {
+                    // Check that our line is splitted correctly
+                    if (line.length >= 2) {
 
-                        // If the Xrate is null, set the last known xrate
-                        if (line[1].isEmpty()) {
+                        // Check that we have a correct K & V
+                        if (line[0] != null && isCorrectDate(line[0]) && isCorrectXRate(line[1])) {
 
-                            // Add the values to the map
-                            map.put(line[0], lastKnownXRate);
+                            // If the Xrate is null, set the last known xrate
+                            if (line[1].isEmpty()) {
 
-                        } else {
+                                // Add the values to the map
+                                map.put(line[0], lastKnownXRate);
 
-                            // If my K, V are ok, then I can put the info to the map
-                            map.put(line[0], Double.parseDouble(line[1]));
+                                // Write to csv
+                                String date = line[0];
+                                Double forex = lastKnownXRate;
+                                ForexRate fx = new ForexRate(date, forex);
+                                bw.write(fx.getDate() + "," + fx.getForex());
+                                bw.newLine();
+                                bw.flush();
 
-                            // Add to temporary variable for off days
-                            // Set off days to previous known date
-                            lastKnownXRate = Double.parseDouble(line[1]);
+                            } else {
 
+                                // If my K, V are ok, then I can put the info to the map
+                                map.put(line[0], Double.parseDouble(line[1]));
+
+                                // Add to temporary variable for off days
+                                // Set off days to previous known date
+                                lastKnownXRate = Double.parseDouble(line[1]);
+
+                                // Write to csv
+                                String date = line[0];
+                                Double forex = lastKnownXRate;
+                                ForexRate fx = new ForexRate(date, forex);
+                                bw.write(fx.getDate() + "," + fx.getForex());
+                                bw.newLine();
+                                bw.flush();
+                            }
                         }
                     }
                 }
@@ -126,7 +149,7 @@ public class ExchangeRates {
      */
     private boolean isCorrectXRate(String s) throws Exception {
         // Check that that the line's length is > 0
-        if (s.trim().length() > 0) {
+        if (s.trim().length() >= 1) {
             // if correct, return true
             return true;
         }

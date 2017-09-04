@@ -188,12 +188,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/Convert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/ForexProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/ForexRate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/InvoiceLine.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/MonProcesseur.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/Category.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/util/ExchangeRateMapping.java">
           <value>
             <set />
           </value>
@@ -224,6 +249,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/CheckDateTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ConvertTest.java">
           <value>
             <set />
           </value>

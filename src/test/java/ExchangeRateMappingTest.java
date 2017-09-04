@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertTrue;
 
 import com.opencsv.CSVReader;
-import com.ovh.milestone.util.ExchangeRates;
+import com.ovh.milestone.util.ExchangeRateMapping;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.DateFormat;
@@ -14,9 +14,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class ExchangeRatesTest {
+public class ExchangeRateMappingTest {
 
-    private static final Logger LOG = LoggerFactory.getLogger(ExchangeRates.class.getName());
+    private static final Logger LOG = LoggerFactory.getLogger(ExchangeRateMapping.class.getName());
 
     // This map will contain dates(Strings) as Key
     // and FOREX rates (Doubles) as Values
@@ -135,7 +135,7 @@ public class ExchangeRatesTest {
 
     @Test
     public void csvToMapTest() {
-        ExchangeRates c = new ExchangeRates();
+        ExchangeRateMapping c = new ExchangeRateMapping();
         try {
             c.csvToMap("/home/jlenotte/WORKSPACE/Milestone/dataLines3.csv");
         } catch (IOException e) {

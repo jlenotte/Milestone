@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12860c1c-f0f5-4f4a-8582-3d17a3e27752" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/Revenue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/JoinDatasets.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/JoinDatasets.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/PerNicTotal.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/PerNicTotal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/TopCustomers.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/TopCustomers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/YearMonthTotal.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/YearMonthTotal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/Convert.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/Convert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/ForexProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/ForexProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/ForexRate.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/conversion/ForexRate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ConvertTest.java" afterPath="$PROJECT_DIR$/src/test/java/ConvertTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FlinkJobTest.java" afterPath="$PROJECT_DIR$/src/test/java/FlinkJobTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PerNicTotalTest.java" afterPath="$PROJECT_DIR$/src/test/java/PerNicTotalTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TopCustTest.java" afterPath="$PROJECT_DIR$/src/test/java/TopCustTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/UnionTest.java" afterPath="$PROJECT_DIR$/src/test/java/UnionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/Revenue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -711,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504541607963</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fixed the Join Function and conversion is functionnal, must implement a revenue per month calculation.">
+      <created>1504628573604</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1504628573604</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -834,7 +825,8 @@
     <MESSAGE value="Still developping Xchange Rate, must do more Tests, and make the code more defensive." />
     <MESSAGE value="Xchange rate mapping complete, still needs fine tuning but it is functionnal." />
     <MESSAGE value="Implemented a JoinFunction to compare the dataset and the dates/xrates, must fix and figure out wether the datasink is not writing or the function is not working." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a JoinFunction to compare the dataset and the dates/xrates, must fix and figure out wether the datasink is not writing or the function is not working." />
+    <MESSAGE value="Fixed the Join Function and conversion is functionnal, must implement a revenue per month calculation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the Join Function and conversion is functionnal, must implement a revenue per month calculation." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1455,30 +1447,30 @@
         <state relative-caret-position="336">
           <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
-            <marker date="1504616456293" expanded="false" signature="35:102" ph="..." />
-            <marker date="1504616456293" expanded="true" signature="104:127" ph="/**...*/" />
-            <marker date="1504616456293" expanded="true" signature="385:569" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="717:1030" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="1171:1376" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="1384:1420" ph="/**...*/" />
-            <marker date="1504616456293" expanded="true" signature="1455:1488" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="1520:1548" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="1587:1622" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="1658:1690" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="1729:1843" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="1875:1903" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="1947:2035" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2072:2105" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2156:2199" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2240:2273" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2324:2367" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2415:2494" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2535:2568" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2617:2658" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2713:2760" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2804:2844" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2898:2937" ph="{...}" />
-            <marker date="1504616456293" expanded="true" signature="2970:3224" ph="{...}" />
+            <marker date="1504628568785" expanded="false" signature="35:102" ph="..." />
+            <marker date="1504628568785" expanded="true" signature="104:127" ph="/**...*/" />
+            <marker date="1504628568785" expanded="true" signature="385:569" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="717:1030" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="1171:1376" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="1384:1420" ph="/**...*/" />
+            <marker date="1504628568785" expanded="true" signature="1455:1488" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="1520:1548" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="1587:1622" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="1658:1690" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="1729:1835" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="1867:1895" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="1939:2027" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2064:2097" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2148:2191" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2232:2265" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2316:2359" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2407:2486" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2527:2560" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2609:2650" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2705:2752" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2796:2836" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2890:2929" ph="{...}" />
+            <marker date="1504628568785" expanded="true" signature="2962:3216" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1556,10 +1548,10 @@
         <state relative-caret-position="396">
           <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding>
-            <marker date="1504624792131" expanded="true" signature="46:294" ph="..." />
-            <marker date="1504624792131" expanded="true" signature="296:463" ph="/**...*/" />
-            <marker date="1504624792131" expanded="true" signature="725:1768" ph="{...}" />
-            <marker date="1504624792131" expanded="true" signature="736:777" ph="//..." />
+            <marker date="1504628568781" expanded="true" signature="46:294" ph="..." />
+            <marker date="1504628568781" expanded="true" signature="296:457" ph="/**...*/" />
+            <marker date="1504628568781" expanded="true" signature="719:1762" ph="{...}" />
+            <marker date="1504628568781" expanded="true" signature="730:771" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1610,7 +1602,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/Revenue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,12 +5,8 @@ import java.io.IOException;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import org.apache.flink.api.common.functions.JoinFunction;
-import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
-import org.apache.flink.api.java.operators.DataSource;
-import org.apache.flink.api.java.operators.MapOperator;
-import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.core.fs.FileSystem;
 import org.junit.Test;
@@ -31,6 +27,9 @@ public class ConvertTest {
 
         // Setup Flink environment
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+
+        // Broadcast
+
 
         // Setup input data
         String csvFile = config.get("csvFile", "dataBase.csv");
@@ -59,6 +58,7 @@ public class ConvertTest {
             .where("date")
             .equalTo("date")
             .with(new JoinFunction<Invoice, ForexRate, Invoice>() {
+
                 @Override
                 public Invoice join(Invoice first, ForexRate second) throws Exception {
 
@@ -146,7 +146,7 @@ public class ConvertTest {
                                       .pojoType(ForexRate.class, "date", "forex");
 
         try {
-            DataSet<Invoice> result = conv.compareForex(data1, data2);
+            DataSet<Invoice> result = conv.convertForex(data1, data2);
             result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
         } catch (Exception e) {
             LOG.error(e.getMessage());

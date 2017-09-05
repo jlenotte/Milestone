@@ -1,5 +1,6 @@
-package com.ovh.milestone;
+package com.ovh.milestone.FlinkJobs;
 
+import com.ovh.milestone.Invoice;
 import org.apache.flink.api.common.functions.JoinFunction;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.operators.JoinOperator.DefaultJoin;

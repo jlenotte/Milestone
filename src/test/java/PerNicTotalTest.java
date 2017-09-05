@@ -1,9 +1,8 @@
 import com.ovh.milestone.Invoice;
-import com.ovh.milestone.JoinDatasets;
-import com.ovh.milestone.PerNicTotal;
-import com.ovh.milestone.TopCustomers;
-import com.ovh.milestone.YearMonthTotal;
-import java.io.IOException;
+import com.ovh.milestone.FlinkJobs.JoinDatasets;
+import com.ovh.milestone.FlinkJobs.PerNicTotal;
+import com.ovh.milestone.FlinkJobs.TopCustomers;
+import com.ovh.milestone.FlinkJobs.YearMonthTotal;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.MapOperator;

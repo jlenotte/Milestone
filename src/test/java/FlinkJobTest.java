@@ -1,23 +1,16 @@
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.Serializer;
-import com.esotericsoftware.kryo.io.Input;
-import com.esotericsoftware.kryo.io.Output;
 import com.ovh.milestone.DataSource;
 import com.ovh.milestone.FlinkJob;
 import com.ovh.milestone.Invoice;
-import com.ovh.milestone.JoinDatasets;
+import com.ovh.milestone.FlinkJobs.JoinDatasets;
 import java.io.IOException;
-import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.JoinOperator.DefaultJoin;
-import org.apache.flink.api.java.operators.MapOperator;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import scala.Tuple2;
 
 public class FlinkJobTest
 {

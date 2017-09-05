@@ -8,6 +8,10 @@ import org.apache.flink.api.common.functions.JoinFunction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * ForexProcessor executes the join operation of the convertForex method It checks the dates, and
+ * applies the right ForexRate according to the former.
+ */
 
 public class ForexProcessor implements JoinFunction<Invoice, ForexRate, Invoice> {
 
@@ -18,16 +22,15 @@ public class ForexProcessor implements JoinFunction<Invoice, ForexRate, Invoice>
     @Override
     public Invoice join(Invoice first, ForexRate second) throws Exception {
 
-        ZonedDateTime zDate = first.getZonedDate();
-        String billDate = zDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        // Log
+        // Parse the ZDT to String
         Double convertedSum = null;
 
-        // If both dates match, and currency is EUR, do the conversion EUR -> USD
-        if (billDate.equals(second.getDate())
-            && "EUR".equals(first.getCurrency())) {
+        LOG.error(first.getDate() + " / " + second.getDate());
 
-            // Log
-            LOG.debug(second.getDate(), first.getCurrency());
+        // If both dates match, and currency is EUR, do the conversion EUR -> USD
+        if (first.getDate().equals(second.getDate())
+            && "EUR".equals(first.getCurrency())) {
 
             // Convert
             convertedSum = Convert.toUsd(second.getForex(), first.getTransaction());
@@ -37,9 +40,10 @@ public class ForexProcessor implements JoinFunction<Invoice, ForexRate, Invoice>
                 first.getName(),
                 first.getFirstName(),
                 convertedSum,
-                "USD",
-                first.getZonedDate());
+                first.getNewCurrency(),
+                first.getDate());
 
+            // Else return a new invoice with the same values
         } else {
             return new Invoice(
                 first.getNichandle(),
@@ -47,7 +51,8 @@ public class ForexProcessor implements JoinFunction<Invoice, ForexRate, Invoice>
                 first.getFirstName(),
                 first.getTransaction(),
                 first.getCurrency(),
-                first.getZonedDate());
+                first.getDate());
         }
     }
+
 }

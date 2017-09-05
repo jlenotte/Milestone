@@ -46,6 +46,18 @@ public class Invoice {
 
 
 
+    public Invoice(String nichandle, String name, String firstName, Double transaction,
+                   String currency, String date) {
+        this.nichandle = nichandle;
+        this.name = name;
+        this.firstName = firstName;
+        this.transaction = transaction;
+        this.currency = currency;
+        this.date = date;
+    }
+
+
+
     /**
      * Getters & Setters
      */
@@ -69,6 +81,15 @@ public class Invoice {
 
 
     public String getCurrency() {
+        return currency;
+    }
+
+
+
+    public String getNewCurrency() {
+        if ("EUR".equals(currency)) {
+            return "USD";
+        }
         return currency;
     }
 

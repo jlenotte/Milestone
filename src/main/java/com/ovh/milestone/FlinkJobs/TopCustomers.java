@@ -1,5 +1,6 @@
-package com.ovh.milestone;
+package com.ovh.milestone.FlinkJobs;
 
+import com.ovh.milestone.Invoice;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.common.operators.Order;

@@ -133,6 +133,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/JoinDatasets.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/Revenue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java">
           <value>
             <set />

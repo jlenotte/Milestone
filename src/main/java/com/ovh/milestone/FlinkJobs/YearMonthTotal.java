@@ -1,5 +1,6 @@
-package com.ovh.milestone;
+package com.ovh.milestone.FlinkJobs;
 
+import com.ovh.milestone.Invoice;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import org.apache.flink.api.common.functions.MapFunction;

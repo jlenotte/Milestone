@@ -1,5 +1,9 @@
 package com.ovh.milestone;
 
+import com.ovh.milestone.FlinkJobs.JoinDatasets;
+import com.ovh.milestone.FlinkJobs.PerNicTotal;
+import com.ovh.milestone.FlinkJobs.TopCustomers;
+import com.ovh.milestone.FlinkJobs.YearMonthTotal;
 import com.ovh.milestone.conversion.Convert;
 import com.ovh.milestone.conversion.ForexRate;
 import com.ovh.milestone.conversion.InvoiceLine;
@@ -85,6 +89,7 @@ public class Main {
 
         String choice = config.get("choice");
 
+        // This switch statement will follow the parameter set in the milestone.properties file
         switch (choice) {
             case "join": {
                 // Join
@@ -132,7 +137,7 @@ public class Main {
                 break;
             }
             case "processforex": {
-                DataSet<Invoice> result = conv.compareForex(data1, data3);
+                DataSet<Invoice> result = conv.convertForex(data1, data3);
                 result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
                 break;
             }
@@ -141,40 +146,6 @@ public class Main {
                 break;
             }
         }
-
-        /*
-        // Try to run the code
-        try
-        {
-            // Join
-            // DefaultJoin<Invoice, Invoice> result = jd.joinSets(data1, data2);
-
-            // Union
-            DataSet<Invoice> result = jd.unionSets(data1, data2);
-
-            // Get the total of transactions per nichandle
-            // MapOperator<Invoice, Tuple2<String, Double>> result2 = nicTotal.getNichandleSumFlink(result);
-
-            // Get top customers
-            GroupReduceOperator result2 = topCusts.getTopCustomersByNic(result, limit100);
-
-            // Get top months
-            // GroupReduceOperator result = yearMonthTotal.getBestMonths(data1, 100);
-
-            // Get the sum of all transactions per year/MM
-            // ReduceOperator<Tuple2<String, Double>> result2 = yearMonthTotal.getTotalPerYearMonth(result);
-
-            // Get the result in a DataSink
-            result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
-
-
-        }
-
-        catch (Exception e)
-        {
-            LOGGER.error(e.getMessage());
-        }
-        */
 
         // Execute
         env.execute();

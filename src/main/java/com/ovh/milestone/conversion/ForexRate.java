@@ -3,8 +3,8 @@ package com.ovh.milestone.conversion;
 public class ForexRate {
 
     // Attributes
-    String date;
-    Double forex;
+    private String date;
+    private Double forex;
 
 
 

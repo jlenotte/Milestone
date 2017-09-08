@@ -1,9 +1,6 @@
-package com.ovh.milestone.conversion;
+package com.ovh.milestone.Conversion;
 
 import com.ovh.milestone.Invoice;
-import com.ovh.milestone.Main;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import org.apache.flink.api.common.functions.JoinFunction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

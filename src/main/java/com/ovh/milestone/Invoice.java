@@ -15,7 +15,9 @@ public class Invoice {
     private String firstName;
     private Double transaction;
     private String currency;
+    private String newCurrency;
     private String date;
+    private Double convertedValue;
 
 
 
@@ -48,12 +50,27 @@ public class Invoice {
 
     public Invoice(String nichandle, String name, String firstName, Double transaction,
                    String currency, String date) {
+
         this.nichandle = nichandle;
         this.name = name;
         this.firstName = firstName;
         this.transaction = transaction;
         this.currency = currency;
         this.date = date;
+    }
+
+
+
+    public Invoice(String nichandle, String name, String firstName, Double transaction,
+                   String currency, String newCurr, String date, Double convertedValue) {
+        this.nichandle = nichandle;
+        this.name = name;
+        this.firstName = firstName;
+        this.transaction = transaction;
+        this.currency = currency;
+        this.newCurrency = newCurr;
+        this.date = date;
+        this.convertedValue = convertedValue;
     }
 
 
@@ -88,7 +105,7 @@ public class Invoice {
 
     public String getNewCurrency() {
         if ("EUR".equals(currency)) {
-            return "USD";
+            return "(" + currency + ") \\uD83D\\uDC7C " + "USD";
         }
         return currency;
     }
@@ -151,6 +168,24 @@ public class Invoice {
 
     public void setTransaction(Double transaction) {
         this.transaction = transaction;
+    }
+
+
+
+    public void setNewCurrency(String newCurrency) {
+        this.newCurrency = newCurrency;
+    }
+
+
+
+    public Double getConvertedValue() {
+        return convertedValue;
+    }
+
+
+
+    public void setConvertedValue(Double convertedValue) {
+        this.convertedValue = convertedValue;
     }
 
 

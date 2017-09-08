@@ -1,4 +1,4 @@
-package com.ovh.milestone.conversion;
+package com.ovh.milestone.Conversion;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;

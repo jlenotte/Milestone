@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Billing/Billing.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ColumnPositionMappingStrategy.java">
           <value>
             <set />
@@ -98,12 +103,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Currencies.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ExchangeRate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexRate.java">
           <value>
             <set />
           </value>
@@ -184,6 +204,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/TopCustomers.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/ExchangeRateMapping.java">
           <value>
             <set />
           </value>
@@ -299,6 +324,46 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/UnionTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/src/main/java/com/ovh/woodpecker/Billing/Billing.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/src/main/java/com/ovh/woodpecker/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/src/main/java/com/ovh/woodpecker/Refund/Refund.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/src/main/java/com/ovh/woodpecker/flink/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/src/main/java/com/ovh/woodpecker/processors/Category.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/src/main/java/com/ovh/woodpecker/processors/Processors.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/src/main/resources/logback.xml">
           <value>
             <set />
           </value>

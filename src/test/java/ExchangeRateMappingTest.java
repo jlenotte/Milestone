@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertTrue;
 
 import com.opencsv.CSVReader;
-import com.ovh.milestone.util.ExchangeRateMapping;
+import com.ovh.milestone.Util.ExchangeRateMapping;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.DateFormat;

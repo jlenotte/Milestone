@@ -22,6 +22,12 @@ public class FlinkJob {
 
 
 
+    private static Invoice map(Tuple2<String, Double> stringDoubleTuple2) {
+        return new Invoice();
+    }
+
+
+
     /**
      * Get top N transactions with Stream
      */
@@ -111,8 +117,7 @@ public class FlinkJob {
             // Sort and limit
             .sortPartition(1, Order.DESCENDING)
             .first(limit)
-            .map((MapFunction<Tuple2<String, Double>, Invoice>) stringDoubleTuple2 ->
-                new Invoice());
+            .map((MapFunction<Tuple2<String, Double>, Invoice>) FlinkJob::map);
     }
 
 

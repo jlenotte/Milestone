@@ -1,4 +1,4 @@
-package com.ovh.milestone.conversion;
+package com.ovh.milestone.Conversion;
 
 public class ForexRate {
 

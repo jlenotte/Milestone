@@ -1,6 +1,6 @@
 import com.ovh.milestone.Invoice;
-import com.ovh.milestone.conversion.Convert;
-import com.ovh.milestone.conversion.ForexRate;
+import com.ovh.milestone.Conversion.Convert;
+import com.ovh.milestone.Conversion.ForexRate;
 import java.io.IOException;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
@@ -146,7 +146,7 @@ public class ConvertTest {
                                       .pojoType(ForexRate.class, "date", "forex");
 
         try {
-            DataSet<Invoice> result = conv.convertForex(data1, data2);
+            DataSet<Invoice> result = conv.convertForexBroadcast(data1, data2);
             result.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);
         } catch (Exception e) {
             LOG.error(e.getMessage());

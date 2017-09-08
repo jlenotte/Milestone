@@ -1,7 +1,7 @@
-package com.ovh.milestone.util;
+package com.ovh.milestone.Util;
 
 import com.opencsv.CSVReader;
-import com.ovh.milestone.conversion.ForexRate;
+import com.ovh.milestone.Conversion.ForexRate;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
@@ -12,6 +12,11 @@ import java.text.SimpleDateFormat;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
+
+import static org.junit.Assert.assertTrue;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +29,11 @@ import org.slf4j.LoggerFactory;
  * 1. Read the CSV file that contains the dates and FOREX rates 2. Check the quality of the CSV
  * file's data (date format & currency) 3. If the quality of the data is met, map the dates &
  * currencies as K, V
+ *
+ * Preferably, you might want to have a clean pre-processed CSV file, with dates formatted
+ * like so : yyyy-MM-dd, sorted and without odd and special characters.
+ *
+ *
  */
 public class ExchangeRateMapping {
 
@@ -31,6 +41,7 @@ public class ExchangeRateMapping {
     // and FOREX rates (Doubles) as Values
     private static final Logger LOG = LoggerFactory.getLogger(ExchangeRateMapping.class.getName());
     public static final Map<String, Double> map = new TreeMap<>();
+
 
 
 
@@ -118,7 +129,7 @@ public class ExchangeRateMapping {
 
         // Check that the date contains 10 chars and matches the following regex :
         // "0000-00-00" aka yyyy/MM/dd
-        if (s != null && s.trim().length() == 10 && s.matches("([0-9]{4})-([0-9]{2})-([0-9]{2})")) {
+        if (s != null && s.trim().length() == 10 && "([0-9]{4})-([0-9]{2})-([0-9]{2})".matches(s)) {
             return true;
         }
         return false;
@@ -148,10 +159,18 @@ public class ExchangeRateMapping {
      * equal to 0 will completely mess up the process and program /!\
      */
     private boolean isCorrectXRate(String s) throws Exception {
-        // Check that that the line's length is > 0
-        if (s.trim().length() >= 1) {
-            // if correct, return true
-            return true;
+
+        Pattern pattern = Pattern.compile("[$&+,:;=?@#|'<>.-^*()%!]");
+        Matcher matcher = pattern.matcher("\\.[]{}()*+-?^$|");
+
+        try {
+            // Check that that the line's length is > 0
+            if (s.trim().length() >= 1) {
+                // if correct, return true
+                return true;
+            }
+        } catch (Exception e) {
+            LOG.error(e.getMessage());
         }
         return true;
     }

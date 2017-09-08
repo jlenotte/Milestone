@@ -4,10 +4,10 @@ import com.ovh.milestone.FlinkJobs.JoinDatasets;
 import com.ovh.milestone.FlinkJobs.PerNicTotal;
 import com.ovh.milestone.FlinkJobs.TopCustomers;
 import com.ovh.milestone.FlinkJobs.YearMonthTotal;
-import com.ovh.milestone.conversion.Convert;
-import com.ovh.milestone.conversion.ForexRate;
-import com.ovh.milestone.conversion.InvoiceLine;
-import com.ovh.milestone.util.ExchangeRateMapping;
+import com.ovh.milestone.Conversion.Convert;
+import com.ovh.milestone.Conversion.ForexRate;
+import com.ovh.milestone.Conversion.InvoiceLine;
+import com.ovh.milestone.Util.ExchangeRateMapping;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.GroupReduceOperator;
@@ -28,6 +28,18 @@ public class Main {
      * processes CSV files into new DataSets
      *
      * Milestone will be the first step to a new Flink project
+     *
+     *           .__.
+     *          /  o\____
+     *          \  _.-`
+     *         .'  \
+     *        //    |
+     *       //   ; |
+     *      /{   / /
+     *     /;\.-'.`___\/
+     *    ///-'`\     |
+     *   //'  __/___
+     *  /`      `-.
      *
      * Useful links : https://ci.apache.org/projects/flink/flink-docs-release-0.8/programming_guide.html#data-sources
      * https://ci.apache.org/projects/flink/flink-docs-release-0.8/programming_guide.html

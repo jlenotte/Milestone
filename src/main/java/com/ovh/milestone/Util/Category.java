@@ -1,4 +1,4 @@
-package com.ovh.milestone.util;
+package com.ovh.milestone.Util;
 
 public class Category {
 

@@ -24,6 +24,15 @@ public class Convert extends ForexProcessor {
 
 
 
+
+    /**
+     * Converts with forex rates
+     *
+     * @param data1 DataSet
+     * @param data2 DataSet
+     * @return DataSet
+     * @throws IOException ioe
+     */
     public DataSet<Invoice> convertForexBroadcast(final DataSet<Invoice> data1, final
     DataSet<ForexRate>
         data2) throws IOException {
@@ -33,14 +42,14 @@ public class Convert extends ForexProcessor {
             transient Map<String, ForexRate> broadCasted = new TreeMap<String, ForexRate>();
 
 
-
+            /*
             @Override
             public void open(Configuration parameters) throws Exception {
                 // Access the broadcast dataset as a collection
                 broadCasted = getRuntimeContext().getBroadcastVariable
                     ("broadcastSetName");
             }
-
+            */
 
 
             @Override
@@ -64,8 +73,14 @@ public class Convert extends ForexProcessor {
 
 
 
+
     /**
      * Join an Invoice Dataset and a Date/ForexRate Dataset to convert according to the right date
+     *
+     * @param data1 DataSet
+     * @param data2 DataSet
+     * @return DataSet
+     * @throws IOException IOException
      */
     public DataSet<Invoice> convertForex(final DataSet<Invoice> data1, final
     DataSet<ForexRate> data2) throws IOException {
@@ -90,8 +105,13 @@ public class Convert extends ForexProcessor {
 
 
 
+
     /**
      * Convert from EUR to USD according to the right date's currency
+     *
+     * @param xrate Double
+     * @param sum Double
+     * @return Double
      */
     public static Double toUsd(Double xrate, Double sum) {
 

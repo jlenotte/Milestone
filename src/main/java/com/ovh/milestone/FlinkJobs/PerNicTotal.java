@@ -21,8 +21,12 @@ public class PerNicTotal {
 
 
 
+
     /**
      * Get the sum of all transactions per nic
+     *
+     * @param data DataSet
+     * @return MapOperator
      */
     public MapOperator<Invoice, Tuple2<String, Double>> getNichandleSumFlink(
         DataSet<Invoice> data) {
@@ -33,8 +37,7 @@ public class PerNicTotal {
                 // group by Invoices to get nichandles
                 .groupBy(Invoice::getNichandle)
                 // reduce the transactions
-                .reduce((ReduceFunction<Invoice>) (value1, value2) ->
-                {
+                .reduce((ReduceFunction<Invoice>) (value1, value2) -> {
                     // display in logs for testing
                     LOG.debug("value1 "
                         + value1.getNichandle()

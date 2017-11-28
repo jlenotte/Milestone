@@ -71,8 +71,10 @@ public class ExchangeRateMappingTest {
 
 
 
+
     /**
-     * display the map
+     * Display the Map
+     * @param map Map
      */
     private void displayMap(final Map<String, Double> map) {
         for (Entry<String, Double> stringDoubleEntry : map.entrySet()) {
@@ -82,8 +84,11 @@ public class ExchangeRateMappingTest {
 
 
 
+
     /**
-     * Make sure that the date has a correct format
+     * Make sure that the date has the correct format
+     * @param s String
+     * @return boolean
      */
     private boolean isCorrectDate(String s) {
 
@@ -97,8 +102,12 @@ public class ExchangeRateMappingTest {
 
 
 
+
     /**
-     * Format date
+     * Format Date
+     * @param s String
+     * @return String
+     * @throws Exception Exception
      */
     public String formatDate(String s) throws Exception {
         DateFormat df = new SimpleDateFormat("dd-MM-yyyy");
@@ -114,9 +123,14 @@ public class ExchangeRateMappingTest {
 
 
 
+
     /**
      * Make sure that the Xrate is not problematic /!\ this is very important as Xrates that are
      * equal to 0 will completely mess up the process and program /!\
+     *
+     * @param s String
+     * @return boolean
+     * @throws Exception Exception
      */
     private boolean isCorrectXRate(String s) throws Exception {
         // Check that that the line's length is > 0 aftre a trim

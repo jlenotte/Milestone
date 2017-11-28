@@ -25,6 +25,9 @@ public class YearMonthTotal {
 
     /**
      * Get total profit of each month per year
+     *
+     * @param data DataSet
+     * @return Tuple2
      */
     public ReduceOperator<Tuple2<String, Double>> getTotalPerYearMonth(DataSet<Invoice> data) {
         ReduceOperator<Tuple2<String, Double>> result = null;
@@ -61,8 +64,13 @@ public class YearMonthTotal {
 
 
 
+
     /**
-     * Get the best months
+     * Get the best months of each year
+     *
+     * @param data DataSet
+     * @param limit int
+     * @return Tuple2
      */
     public GroupReduceOperator<Tuple2<String, Double>, Tuple2<String, Double>> getBestMonths(
         DataSet<Invoice> data, int limit) {

@@ -15,37 +15,45 @@ import org.slf4j.LoggerFactory;
 public class JoinDatasets implements
                           JoinFunction<Invoice, Tuple2<String, Double>, Tuple2<String, Double>> {
 
+
     private static final Logger LOG = LoggerFactory.getLogger(JoinDatasets.class);
 
 
 
+
     /**
-     * Join two datasets
+     * Join two DataSets
+     *
+     * @param data1 DataSet1
+     * @param data2 DataSet2
+     * @return JoinOperator
      */
     public DefaultJoin<Invoice, Invoice> joinSets(DataSet<Invoice> data1, DataSet<Invoice> data2) {
         return data1.join(data2)
-                    .where("nichandle")
-                    .equalTo("nichandle");
+                .where("nichandle")
+                .equalTo("nichandle");
     }
 
 
 
+
     @Override
-    public Tuple2<String, Double> join(Invoice first, Tuple2<String, Double> second) throws
-                                                                                     Exception {
+    public Tuple2<String, Double> join(Invoice first, Tuple2<String, Double> second) throws Exception {
         return new Tuple2<>(first.getNichandle(), first.getTransaction() + second.f1);
     }
 
 
 
+
     /**
-     * Union two datasets
+     * Union of DataSets
+     *
+     * @param data1
+     * @param data2
+     * @return
      */
     public DataSet<Invoice> unionSets(DataSet<Invoice> data1, DataSet<Invoice> data2) {
         return data1.union(data2);
     }
 
-    /**
-     *
-     */
 }

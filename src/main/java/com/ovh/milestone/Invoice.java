@@ -9,6 +9,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Invoice {
 
+
     // Attributes
     private String nichandle;
     private String name;
@@ -21,6 +22,7 @@ public class Invoice {
 
 
 
+
     // Constructor
     public Invoice() {
         this.nichandle = null;
@@ -30,6 +32,7 @@ public class Invoice {
         this.currency = null;
         this.date = null;
     }
+
 
 
 
@@ -48,6 +51,7 @@ public class Invoice {
 
 
 
+
     public Invoice(String nichandle, String name, String firstName, Double transaction,
                    String currency, String date) {
 
@@ -58,6 +62,7 @@ public class Invoice {
         this.currency = currency;
         this.date = date;
     }
+
 
 
 
@@ -75,6 +80,7 @@ public class Invoice {
 
 
 
+
     /**
      * Getters & Setters
      */
@@ -85,9 +91,11 @@ public class Invoice {
 
 
 
+
     public String getName() {
         return name;
     }
+
 
 
 
@@ -97,9 +105,11 @@ public class Invoice {
 
 
 
+
     public String getCurrency() {
         return currency;
     }
+
 
 
 
@@ -112,9 +122,11 @@ public class Invoice {
 
 
 
+
     public String getDate() {
         return date;
     }
+
 
 
 
@@ -124,9 +136,11 @@ public class Invoice {
 
 
 
+
     public String getFirstName() {
         return firstName;
     }
+
 
 
 
@@ -136,9 +150,11 @@ public class Invoice {
 
 
 
+
     public void setName(String name) {
         this.name = name;
     }
+
 
 
 
@@ -148,9 +164,11 @@ public class Invoice {
 
 
 
+
     public void setDate(ZonedDateTime date) {
         this.date = date.format(DateTimeFormatter.ISO_ZONED_DATE_TIME);
     }
+
 
 
 
@@ -160,9 +178,11 @@ public class Invoice {
 
 
 
+
     public void setCurrency(String currency) {
         this.currency = currency;
     }
+
 
 
 
@@ -172,9 +192,11 @@ public class Invoice {
 
 
 
+
     public void setNewCurrency(String newCurrency) {
         this.newCurrency = newCurrency;
     }
+
 
 
 
@@ -184,9 +206,11 @@ public class Invoice {
 
 
 
+
     public void setConvertedValue(Double convertedValue) {
         this.convertedValue = convertedValue;
     }
+
 
 
 
@@ -197,6 +221,7 @@ public class Invoice {
 
 
 
+
     @Override
     public boolean equals(Object o) {
         return super.equals(o);
@@ -204,12 +229,13 @@ public class Invoice {
 
 
 
+
     public String toString() {
         return "[Invoice]" + "NicHandle: " + nichandle
-            + ", Name: " + name
-            + ", First name: " + firstName
-            + ", Sum: " + transaction
-            + ", Currency:" + currency
-            + ", Date: " + date + "\n";
+                + ", Name: " + name
+                + ", First name: " + firstName
+                + ", Sum: " + transaction
+                + ", Currency:" + currency
+                + ", Date: " + date + "\n";
     }
 }

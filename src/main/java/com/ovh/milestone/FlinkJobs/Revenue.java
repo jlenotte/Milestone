@@ -1,7 +1,9 @@
 package com.ovh.milestone.FlinkJobs;
 
 import com.ovh.milestone.Invoice;
+
 import java.io.IOException;
+
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.operators.UnsortedGrouping;
 import org.slf4j.Logger;
@@ -13,7 +15,9 @@ import org.slf4j.LoggerFactory;
 
 public class Revenue {
 
+
     private static final Logger LOG = LoggerFactory.getLogger(Revenue.class);
+
 
 
 
@@ -23,7 +27,8 @@ public class Revenue {
         UnsortedGrouping<Invoice> result = null;
         try {
 
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             LOG.error(e.getMessage());
         }
         return result;

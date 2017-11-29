@@ -6,9 +6,11 @@ public enum Currencies {
 
 
 
+
     public Currencies setEur() {
         return EUR;
     }
+
 
 
 

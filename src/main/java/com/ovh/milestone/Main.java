@@ -23,23 +23,12 @@ import org.slf4j.LoggerFactory;
 
 public class Main {
 
+
     /**
      * Program Milestone is a revamp of the project Charlotte which is basically a program that
      * processes CSV files into new DataSets
      *
      * Milestone will be the first step to a new Flink project
-     *
-     *           .__.
-     *          /  o\____
-     *          \  _.-`
-     *         .'  \
-     *        //    |
-     *       //   ; |
-     *      /{   / /
-     *     /;\.-'.`___\/
-     *    ///-'`\     |
-     *   //'  __/___
-     *  /`      `-.
      *
      * Useful links : https://ci.apache.org/projects/flink/flink-docs-release-0.8/programming_guide.html#data-sources
      * https://ci.apache.org/projects/flink/flink-docs-release-0.8/programming_guide.html
@@ -47,11 +36,14 @@ public class Main {
      * https://ci.apache.org/projects/flink/flink-docs-release-1.2/dev/batch/dataset_transformations.html#sort-partition
      * https://ci.apache.org/projects/flink/flink-docs-release-1.3/dev/batch/index.html
      *
-     * Install Flink for windows : https://ci.apache.org/projects/flink/flink-docs-release-1.3/setup/flink_on_windows.html
+     * Install Flink for windows : https://ci.apache.org/projects/flink/flink-docs-release-1.3/setup/flink_on_windows
+     * .html
      */
 
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);
-    private static final String PROPERTIES = "/home/jlenotte/WORKSPACE/Milestone/src/main/resources/milestone.properties";
+    private static final String PROPERTIES = "/home/jlenotte/WORKSPACE/Milestone/src/main/resources/milestone" +
+            ".properties";
+
 
 
 
@@ -88,16 +80,16 @@ public class Main {
 
         // Read CSV file and convert to POJO
         DataSet<Invoice> data1 = env.readCsvFile(csvFile)
-                                    .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
+                .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
 
         DataSet<Invoice> data2 = env.readCsvFile(csvFile2)
-                                    .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
+                .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
 
         DataSet<InvoiceLine> currData = env.readCsvFile(csvFile3)
-                                           .pojoType(InvoiceLine.class, "date", "sum");
+                .pojoType(InvoiceLine.class, "date", "sum");
 
         DataSet<ForexRate> data3 = env.readCsvFile(forex)
-                                      .pojoType(ForexRate.class, "date", "forex");
+                .pojoType(ForexRate.class, "date", "forex");
 
         String choice = config.get("choice");
 
@@ -130,7 +122,7 @@ public class Main {
             case "pernictot": {
                 // Get the total of transactions per nichandle
                 MapOperator<Invoice, Tuple2<String, Double>> result2 = nicTotal
-                    .getNichandleSumFlink(data1);
+                        .getNichandleSumFlink(data1);
 
                 // Get the result in a DataSink
                 result2.writeAsText(resultCsvFile, FileSystem.WriteMode.OVERWRITE);

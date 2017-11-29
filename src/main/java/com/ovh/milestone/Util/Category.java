@@ -2,6 +2,7 @@ package com.ovh.milestone.Util;
 
 public class Category {
 
+
     /**
      * Classifies all the products
      */
@@ -19,6 +20,7 @@ public class Category {
     public String refProcessed;
     public String dataCenter;
     public Double unitPrice;
+
 
 
 
@@ -40,6 +42,7 @@ public class Category {
         this.dataCenter = dataCenter;
         this.unitPrice = unitPrice;
     }
+
 
 
 

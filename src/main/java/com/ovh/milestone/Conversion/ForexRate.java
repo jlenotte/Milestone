@@ -2,9 +2,11 @@ package com.ovh.milestone.Conversion;
 
 public class ForexRate {
 
+
     // Attributes
     private String date;
     private Double forex;
+
 
 
 
@@ -16,11 +18,13 @@ public class ForexRate {
 
 
 
+
     // Constructor
     public ForexRate(String date, Double forex) {
         this.date = date;
         this.forex = forex;
     }
+
 
 
 
@@ -31,15 +35,18 @@ public class ForexRate {
 
 
 
+
     public void setDate(String date) {
         this.date = date;
     }
 
 
 
+
     public Double getForex() {
         return forex;
     }
+
 
 
 

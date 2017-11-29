@@ -1,17 +1,21 @@
 package com.ovh.milestone;
 
 import com.opencsv.CSVReader;
+
 import java.io.FileReader;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.apache.flink.api.java.DataSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class DataSource {
 
+
     private static final Logger LOGGER = LoggerFactory.getLogger(DataSource.class.getName());
+
 
 
 
@@ -46,7 +50,8 @@ public class DataSource {
                 }
             }
             LOGGER.debug("File was read with success.");
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             LOGGER.error(e.getMessage());
         }
         return list;

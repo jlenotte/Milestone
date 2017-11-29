@@ -1,12 +1,14 @@
 package com.ovh.milestone.Conversion;
 
 import com.ovh.milestone.Invoice;
+
 import java.io.IOException;
 import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+
 import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.api.common.functions.MapFunction;
@@ -19,6 +21,7 @@ import org.slf4j.LoggerFactory;
  */
 
 public class Convert extends ForexProcessor {
+
 
     private static final transient Logger LOG = LoggerFactory.getLogger(Convert.class);
 
@@ -35,7 +38,7 @@ public class Convert extends ForexProcessor {
      */
     public DataSet<Invoice> convertForexBroadcast(final DataSet<Invoice> data1, final
     DataSet<ForexRate>
-        data2) throws IOException {
+            data2) throws IOException {
 
         return data1.map(new RichMapFunction<Invoice, Invoice>() {
 
@@ -52,10 +55,12 @@ public class Convert extends ForexProcessor {
             */
 
 
+
+
             @Override
             public Invoice map(Invoice value) throws Exception {
                 String date = value.getZonedDate()
-                                   .format(DateTimeFormatter.ofPattern("yyyy-MM-dd")).trim();
+                        .format(DateTimeFormatter.ofPattern("yyyy-MM-dd")).trim();
 
                 ForexRate xrateOfTheDay = broadCasted.get(date);
                 Double xrate = xrateOfTheDay.getForex();
@@ -66,7 +71,7 @@ public class Convert extends ForexProcessor {
                 LOG.error(String.valueOf(convertedValue));
 
                 return new Invoice(value.getNichandle(), value.getName(), value.getFirstName(),
-                    value.getTransaction(), value.getCurrency(), newCurr, date, convertedValue);
+                                   value.getTransaction(), value.getCurrency(), newCurr, date, convertedValue);
             }
         }).withBroadcastSet(data2, "broadcastSetName");
     }
@@ -86,21 +91,21 @@ public class Convert extends ForexProcessor {
     DataSet<ForexRate> data2) throws IOException {
 
         return data1
-            .map(new MapFunction<Invoice, Invoice>() {
+                .map(new MapFunction<Invoice, Invoice>() {
 
-                @Override
-                public Invoice map(Invoice value) throws Exception {
-                    String date = value.getZonedDate()
-                                       .format(DateTimeFormatter.ofPattern("yyyy-MM-dd")).trim();
+                    @Override
+                    public Invoice map(Invoice value) throws Exception {
+                        String date = value.getZonedDate()
+                                .format(DateTimeFormatter.ofPattern("yyyy-MM-dd")).trim();
 
-                    return new Invoice(value.getNichandle(), value.getName(), value.getFirstName(),
-                        value.getTransaction(), value.getCurrency(), date);
-                }
-            })
-            .join(data2)
-            .where("date")
-            .equalTo("date")
-            .with(new ForexProcessor());
+                        return new Invoice(value.getNichandle(), value.getName(), value.getFirstName(),
+                                           value.getTransaction(), value.getCurrency(), date);
+                    }
+                })
+                .join(data2)
+                .where("date")
+                .equalTo("date")
+                .with(new ForexProcessor());
     }
 
 
@@ -110,7 +115,7 @@ public class Convert extends ForexProcessor {
      * Convert from EUR to USD according to the right date's currency
      *
      * @param xrate Double
-     * @param sum Double
+     * @param sum   Double
      * @return Double
      */
     public static Double toUsd(Double xrate, Double sum) {

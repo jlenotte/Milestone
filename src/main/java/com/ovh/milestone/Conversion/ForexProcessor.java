@@ -12,7 +12,9 @@ import org.slf4j.LoggerFactory;
 
 public class ForexProcessor implements JoinFunction<Invoice, ForexRate, Invoice> {
 
+
     private static final Logger LOG = LoggerFactory.getLogger(ForexProcessor.class);
+
 
 
 
@@ -27,28 +29,29 @@ public class ForexProcessor implements JoinFunction<Invoice, ForexRate, Invoice>
 
         // If both dates match, and currency is EUR, do the conversion EUR -> USD
         if (first.getDate().equals(second.getDate())
-            && "EUR".equals(first.getCurrency())) {
+                && "EUR".equals(first.getCurrency())) {
 
             // Convert
             convertedSum = Convert.toUsd(second.getForex(), first.getTransaction());
 
             return new Invoice(
-                first.getNichandle(),
-                first.getName(),
-                first.getFirstName(),
-                convertedSum,
-                first.getNewCurrency(),
-                first.getDate());
+                    first.getNichandle(),
+                    first.getName(),
+                    first.getFirstName(),
+                    convertedSum,
+                    first.getNewCurrency(),
+                    first.getDate());
 
             // Else return a new invoice with the same values
-        } else {
+        }
+        else {
             return new Invoice(
-                first.getNichandle(),
-                first.getName(),
-                first.getFirstName(),
-                first.getTransaction(),
-                first.getCurrency(),
-                first.getDate());
+                    first.getNichandle(),
+                    first.getName(),
+                    first.getFirstName(),
+                    first.getTransaction(),
+                    first.getCurrency(),
+                    first.getDate());
         }
     }
 

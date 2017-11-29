@@ -5,9 +5,11 @@ import java.time.format.DateTimeFormatter;
 
 public class InvoiceLine {
 
+
     // Attributes
     private String date;
     private Double sum;
+
 
 
 
@@ -19,10 +21,12 @@ public class InvoiceLine {
 
 
 
+
     public InvoiceLine(ZonedDateTime date, Double sum) {
         this.date = date.format(DateTimeFormatter.ofPattern("yyyy/MM/dd"));
         this.sum = sum;
     }
+
 
 
 
@@ -35,9 +39,11 @@ public class InvoiceLine {
 
 
 
+
     public String getDate() {
         return date;
     }
+
 
 
 
@@ -47,9 +53,11 @@ public class InvoiceLine {
 
 
 
+
     public void setDate(String date) {
         this.date = date;
     }
+
 
 
 
@@ -59,17 +67,19 @@ public class InvoiceLine {
 
 
 
+
     public void setSum(Double sum) {
         this.sum = sum;
     }
 
 
 
+
     @Override
     public String toString() {
         return "ConversionMap[" +
-            "date='" + date + '\'' +
-            ", sum=" + sum +
-            ']';
+                "date='" + date + '\'' +
+                ", sum=" + sum +
+                ']';
     }
 }

@@ -2,6 +2,7 @@ package com.ovh.milestone.Util;
 
 import com.opencsv.CSVReader;
 import com.ovh.milestone.Conversion.ForexRate;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
@@ -17,6 +18,7 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -32,10 +34,9 @@ import org.slf4j.LoggerFactory;
  *
  * Preferably, you might want to have a clean pre-processed CSV file, with dates formatted
  * like so : yyyy-MM-dd, sorted and without odd and special characters.
- *
- *
  */
 public class ExchangeRateMapping {
+
 
     // This map will contain dates(Strings) as Key
     // and FOREX rates (Doubles) as Values
@@ -79,7 +80,8 @@ public class ExchangeRateMapping {
                                 bw.newLine();
                                 bw.flush();
 
-                            } else {
+                            }
+                            else {
 
                                 // If my K, V are ok, then I can put the info to the map
                                 map.put(line[0], Double.parseDouble(line[1]));
@@ -102,12 +104,14 @@ public class ExchangeRateMapping {
             }
 
             displayMap(map);
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             LOG.error(e.getMessage());
         }
 
         return map;
     }
+
 
 
 
@@ -119,6 +123,7 @@ public class ExchangeRateMapping {
             LOG.debug(String.valueOf(stringDoubleEntry));
         }
     }
+
 
 
 
@@ -134,6 +139,7 @@ public class ExchangeRateMapping {
         }
         return false;
     }
+
 
 
 
@@ -154,6 +160,7 @@ public class ExchangeRateMapping {
 
 
 
+
     /**
      * Make sure that the Xrate is not problematic /!\ this is very important as Xrates that are
      * equal to 0 will completely mess up the process and program /!\
@@ -169,7 +176,8 @@ public class ExchangeRateMapping {
                 // if correct, return true
                 return true;
             }
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             LOG.error(e.getMessage());
         }
         return true;

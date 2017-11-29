@@ -6,6 +6,7 @@ package com.ovh.milestone;
 
 public class Nic {
 
+
     // Attributes
     private String nichandle;
     private String name;
@@ -20,6 +21,7 @@ public class Nic {
     private String companyTel;
     private String companyAddress;
     private String companyType;
+
 
 
 
@@ -39,6 +41,7 @@ public class Nic {
         this.companyAddress = null;
         this.companyType = null;
     }
+
 
 
 
@@ -62,9 +65,11 @@ public class Nic {
 
 
 
+
     public String getNichandle() {
         return nichandle;
     }
+
 
 
 
@@ -74,9 +79,11 @@ public class Nic {
 
 
 
+
     public String getName() {
         return name;
     }
+
 
 
 
@@ -86,9 +93,11 @@ public class Nic {
 
 
 
+
     public String getFirstName() {
         return firstName;
     }
+
 
 
 
@@ -98,9 +107,11 @@ public class Nic {
 
 
 
+
     public String getAddress() {
         return address;
     }
+
 
 
 
@@ -110,9 +121,11 @@ public class Nic {
 
 
 
+
     public String getTel() {
         return tel;
     }
+
 
 
 
@@ -122,9 +135,11 @@ public class Nic {
 
 
 
+
     public String getEmail() {
         return email;
     }
+
 
 
 
@@ -134,9 +149,11 @@ public class Nic {
 
 
 
+
     public String getBillingCountry() {
         return billingCountry;
     }
+
 
 
 
@@ -146,9 +163,11 @@ public class Nic {
 
 
 
+
     public String getCompanyName() {
         return companyName;
     }
+
 
 
 
@@ -158,9 +177,11 @@ public class Nic {
 
 
 
+
     public String getSocialReason() {
         return socialReason;
     }
+
 
 
 
@@ -170,9 +191,11 @@ public class Nic {
 
 
 
+
     public String getSiren() {
         return siren;
     }
+
 
 
 
@@ -182,9 +205,11 @@ public class Nic {
 
 
 
+
     public String getCompanyTel() {
         return companyTel;
     }
+
 
 
 
@@ -194,9 +219,11 @@ public class Nic {
 
 
 
+
     public String getCompanyAddress() {
         return companyAddress;
     }
+
 
 
 
@@ -206,9 +233,11 @@ public class Nic {
 
 
 
+
     public String getCompanyType() {
         return companyType;
     }
+
 
 
 
@@ -218,22 +247,23 @@ public class Nic {
 
 
 
+
     @Override
     public String toString() {
         return "Nic{" +
-            "nichandle='" + nichandle + '\'' +
-            ", name='" + name + '\'' +
-            ", firstName='" + firstName + '\'' +
-            ", address='" + address + '\'' +
-            ", tel='" + tel + '\'' +
-            ", email='" + email + '\'' +
-            ", billingCountry='" + billingCountry + '\'' +
-            ", companyName='" + companyName + '\'' +
-            ", socialReason='" + socialReason + '\'' +
-            ", siren='" + siren + '\'' +
-            ", companyTel='" + companyTel + '\'' +
-            ", companyAddress='" + companyAddress + '\'' +
-            ", companyType='" + companyType + '\'' +
-            '}';
+                "nichandle='" + nichandle + '\'' +
+                ", name='" + name + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", address='" + address + '\'' +
+                ", tel='" + tel + '\'' +
+                ", email='" + email + '\'' +
+                ", billingCountry='" + billingCountry + '\'' +
+                ", companyName='" + companyName + '\'' +
+                ", socialReason='" + socialReason + '\'' +
+                ", siren='" + siren + '\'' +
+                ", companyTel='" + companyTel + '\'' +
+                ", companyAddress='" + companyAddress + '\'' +
+                ", companyType='" + companyType + '\'' +
+                '}';
     }
 }

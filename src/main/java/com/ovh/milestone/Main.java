@@ -28,7 +28,7 @@ public class Main {
      * Program Milestone is a revamp of the project Charlotte which is basically a program that
      * processes CSV files into new DataSets
      *
-     * Milestone will be the first step to a new Flink project
+     * Milestone will be the "stepping stone" to a new Flink project
      *
      * Useful links : https://ci.apache.org/projects/flink/flink-docs-release-0.8/programming_guide.html#data-sources
      * https://ci.apache.org/projects/flink/flink-docs-release-0.8/programming_guide.html
@@ -41,9 +41,7 @@ public class Main {
      */
 
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);
-    private static final String PROPERTIES = "/home/jlenotte/WORKSPACE/Milestone/src/main/resources/milestone" +
-            ".properties";
-
+    private static final String PROPERTIES = "/home/jules/WORKSPACE/Java/Milestone/src/main/resources/milestone.properties";
 
 
 
@@ -56,7 +54,7 @@ public class Main {
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         // Setup input data1
-        String csvFile = config.get("csvFile3", "dataBase3.csv");
+        String csvFile = config.get("csvFile", "data.csv");
         String csvFile2 = config.get("csvFile2", "dataBase2.csv");
         String csvFile3 = config.get("csvFile4", "dataLines.csv");
         String forex = config.get("forex", "forex.csv");

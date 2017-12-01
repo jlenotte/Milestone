@@ -4,13 +4,10 @@ import com.ovh.milestone.Invoice;
 
 import java.io.IOException;
 import java.time.format.DateTimeFormatter;
-import java.util.Collection;
-import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
 import org.apache.flink.api.common.functions.RichMapFunction;
-import org.apache.flink.configuration.Configuration;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.DataSet;
 import org.slf4j.Logger;
@@ -42,14 +39,14 @@ public class Convert extends ForexProcessor {
 
         return data1.map(new RichMapFunction<Invoice, Invoice>() {
 
-            transient Map<String, ForexRate> broadCasted = new TreeMap<String, ForexRate>();
+            transient Map<String, ForexRate> broadcastedSet = new TreeMap<String, ForexRate>();
 
 
             /*
             @Override
             public void open(Configuration parameters) throws Exception {
                 // Access the broadcast dataset as a collection
-                broadCasted = getRuntimeContext().getBroadcastVariable
+                broadcastedSet = getRuntimeContext().getBroadcastVariable
                     ("broadcastSetName");
             }
             */
@@ -62,13 +59,13 @@ public class Convert extends ForexProcessor {
                 String date = value.getZonedDate()
                         .format(DateTimeFormatter.ofPattern("yyyy-MM-dd")).trim();
 
-                ForexRate xrateOfTheDay = broadCasted.get(date);
+                ForexRate xrateOfTheDay = broadcastedSet.get(date);
                 Double xrate = xrateOfTheDay.getForex();
 
                 // conversion
                 String newCurr = value.getNewCurrency();
                 Double convertedValue = xrate * value.getTransaction();
-                LOG.error(String.valueOf(convertedValue));
+                LOG.info(String.valueOf(convertedValue));
 
                 return new Invoice(value.getNichandle(), value.getName(), value.getFirstName(),
                                    value.getTransaction(), value.getCurrency(), newCurr, date, convertedValue);

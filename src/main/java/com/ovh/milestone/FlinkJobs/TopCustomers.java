@@ -70,10 +70,10 @@ public class TopCustomers {
 
 
     /**
-     * Get the 100 best customers (nic + transaction)
+     * Get the 100 best customers
      *
      * @param data  Takes a DataSet in
-     * @param limit limits the operation to the 100 first elements
+     * @param limit limits the operation to the N first elements
      * @return Returns a GroupReduceOperator
      */
     public GroupReduceOperator<Tuple2<String, Double>, Tuple2<String, Double>> getTopCustomersByNic(

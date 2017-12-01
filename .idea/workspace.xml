@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12860c1c-f0f5-4f4a-8582-3d17a3e27752" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexRate.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexRate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/InvoiceLine.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/InvoiceLine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/PerNicTotal.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/PerNicTotal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/Revenue.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/Revenue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/TopCustomers.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/TopCustomers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/YearMonthTotal.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/YearMonthTotal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Nic.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Nic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/ExchangeRateMapping.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/ExchangeRateMapping.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/Currencies.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/TopCustomers.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/TopCustomers.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/milestone.properties" afterPath="$PROJECT_DIR$/src/main/resources/milestone.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +27,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,16 +74,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/MilestoneGetProperties.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlinkJobTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/JoinTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PerNicTotalTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TopCustTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ovhlog" />
-        <option value="$PROJECT_DIR$/src/main/resources/milestone.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/ExchangeRate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currency.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/JoinDatasets.java" />
@@ -129,11 +115,15 @@
         <option value="$PROJECT_DIR$/src/test/java/ConvertTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/ExchangeRateMapping.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/PerNicTotal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/JoinDatasets.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExchangeRateMappingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/YearMonthTotal.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/milestone.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/TopCustomers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/Currencies.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java" />
       </list>
     </option>
@@ -247,8 +237,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -334,12 +324,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.XML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -366,7 +356,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertTest.testConversion">
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ovh.milestone.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ovh.milestone.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Milestone" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
     <configuration name="ConvertTest.compareForex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Milestone" />
@@ -447,45 +476,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ovh.milestone.Util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ovh.milestone.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Milestone" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -505,12 +495,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -546,6 +530,12 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ExchangeRateMappingTest.csvToMapTest" />
@@ -555,9 +545,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ConvertTest.testConversion" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ExchangeRateMappingTest.csvToMapTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConvertTest.testConversion" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExchangeRateMappingTest.csvToMapTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ConvertTest.compareForex" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ExchangeRateMappingTest.csvToMap" />
       </list>
@@ -583,7 +573,12 @@
       <updated>1503326031176</updated>
       <workItem from="1511910744648" duration="1536000" />
       <workItem from="1511913644556" duration="1192000" />
-      <workItem from="1511984323936" duration="1704000" />
+      <workItem from="1511984323936" duration="1745000" />
+      <workItem from="1512029425130" duration="2241000" />
+      <workItem from="1512032305159" duration="538000" />
+      <workItem from="1512041765096" duration="7238000" />
+      <workItem from="1512054912915" duration="1214000" />
+      <workItem from="1512115268024" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, adding local files to remote repository.">
       <created>1503327419384</created>
@@ -775,7 +770,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4432000" />
+    <option name="totallyTimeSpent" value="16983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="22" width="1368" height="749" extended-state="6" />
@@ -785,17 +780,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23279649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -807,47 +799,52 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33002973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.50545096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1921" y="48" width="1928" height="1035" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.50545096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1" y="46" width="1374" height="725" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33002973" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33002973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.50545096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1920" y="48" width="1920" height="1032" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.50545096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1" y="46" width="1374" height="725" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23279649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -898,7 +895,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.3.0/flink-java-1.3.0.jar!/org/apache/flink/api/java/io/CsvReader.class" />
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/time/ZonedDateTime.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -916,14 +912,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/milestone.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/Currencies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
@@ -989,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Currencies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/InvoiceType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1028,34 +1010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="974">
-          <caret line="107" column="54" lean-forward="false" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,74 +1026,6 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.3.0/flink-core-1.3.0-sources.jar!/org/apache/flink/api/common/functions/RuntimeContext.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/ExchangeRateMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/TopCustomers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1511913984032" expanded="false" signature="45:452" ph="..." />
-            <marker date="1511913984032" expanded="true" signature="454:543" ph="/**...*/" />
-            <marker date="1511913984032" expanded="true" signature="669:893" ph="/**...*/" />
-            <marker date="1511913984032" expanded="true" signature="975:2471" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="1199:1611" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="1325:1589" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="1813:2260" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="2082:2238" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="2480:2703" ph="/**...*/" />
-            <marker date="1511913984032" expanded="true" signature="2851:4600" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="3123:3740" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="3249:3718" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="3942:4389" ph="{...}" />
-            <marker date="1511913984032" expanded="true" signature="4211:4367" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/Revenue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1511913983972" expanded="false" signature="45:261" ph="..." />
-            <marker date="1511913983972" expanded="true" signature="263:358" ph="/**...*/" />
-            <marker date="1511913983972" expanded="true" signature="560:797" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/PerNicTotal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding>
-            <marker date="1511913984044" expanded="false" signature="45:392" ph="..." />
-            <marker date="1511913984044" expanded="true" signature="395:452" ph="/**...*/" />
-            <marker date="1511913984044" expanded="true" signature="574:693" ph="/**...*/" />
-            <marker date="1511913984044" expanded="true" signature="807:3806" ph="{...}" />
-            <marker date="1511913984044" expanded="true" signature="1175:2005" ph="{...}" />
-            <marker date="1511913984044" expanded="true" signature="2027:2213" ph="//..." />
-            <marker date="1511913984044" expanded="true" signature="2290:3685" ph="{...}" />
-            <marker date="1511913984044" expanded="true" signature="2418:3663" ph="{...}" />
-            <marker date="1511913984044" expanded="true" signature="2704:2829" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/JoinDatasets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -1149,42 +1039,6 @@
             <marker date="1511912081763" expanded="true" signature="1185:1283" ph="/**...*/" />
             <marker date="1511912081763" expanded="true" signature="1369:1380" ph=" { " />
             <marker date="1511912081763" expanded="true" signature="1406:1412" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <marker date="1511913984020" expanded="false" signature="46:188" ph="..." />
-            <marker date="1511913984020" expanded="true" signature="190:351" ph="/**...*/" />
-            <marker date="1511913984020" expanded="true" signature="615:1718" ph="{...}" />
-            <marker date="1511913984020" expanded="true" signature="626:667" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <marker date="1511913983964" expanded="false" signature="46:517" ph="..." />
-            <marker date="1511913983964" expanded="true" signature="519:621" ph="/**...*/" />
-            <marker date="1511913983964" expanded="true" signature="767:928" ph="/**...*/" />
-            <marker date="1511913983964" expanded="true" signature="1076:2410" ph="{...}" />
-            <marker date="1511913983964" expanded="true" signature="1144:2358" ph="{...}" />
-            <marker date="1511913983964" expanded="false" signature="1217:1236" ph="&lt;~&gt;" />
-            <marker date="1511913983964" expanded="true" signature="1648:2348" ph="{...}" />
-            <marker date="1511913983964" expanded="true" signature="2419:2654" ph="/**...*/" />
-            <marker date="1511913983964" expanded="true" signature="2781:3502" ph="{...}" />
-            <marker date="1511913983964" expanded="true" signature="2862:3357" ph="{...}" />
-            <marker date="1511913983964" expanded="true" signature="2966:3339" ph="{...}" />
-            <marker date="1511913983964" expanded="true" signature="3511:3675" ph="/**...*/" />
-            <marker date="1511913983964" expanded="true" signature="3733:3954" ph="{...}" />
-            <marker date="1511913983964" expanded="true" signature="3775:3855" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1255,10 +1109,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Billing/Billing.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <marker date="1512031495940" expanded="true" signature="53:739" ph="..." />
+            <marker date="1512031495940" expanded="true" signature="170:399" ph="..." />
+            <marker date="1512031495940" expanded="true" signature="292:385" ph="..." />
+            <marker date="1512031495940" expanded="true" signature="474:519" ph="..." />
+            <marker date="1512031495940" expanded="true" signature="679:722" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/YearMonthTotal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
           <folding>
             <marker date="1511914928022" expanded="false" signature="45:588" ph="..." />
             <marker date="1511914928022" expanded="true" signature="591:653" ph="/**...*/" />
@@ -1278,22 +1146,180 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/milestone.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+          <folding>
+            <marker date="1511913983988" expanded="false" signature="35:102" ph="..." />
+            <marker date="1511913983988" expanded="true" signature="104:127" ph="/**...*/" />
+            <marker date="1511913983988" expanded="true" signature="454:638" ph="{...}" />
+            <marker date="1511913983988" expanded="true" signature="787:1100" ph="{...}" />
+            <marker date="1511913983988" expanded="true" signature="1242:1448" ph="{...}" />
+            <marker date="1511913983988" expanded="true" signature="1629:1916" ph="{...}" />
+            <marker date="1511913983988" expanded="true" signature="1925:1961" ph="/**...*/" />
+            <marker date="1511913983988" expanded="false" signature="1995:2006" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2023:2029" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2061:2072" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2084:2090" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2129:2140" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2159:2165" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2201:2212" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2228:2234" ph=" }" />
+            <marker date="1511913983988" expanded="true" signature="2274:2419" ph="{...}" />
+            <marker date="1511913983988" expanded="false" signature="2451:2462" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2474:2480" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2524:2535" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2607:2613" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2650:2661" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2678:2684" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2735:2746" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2773:2779" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2820:2831" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2848:2854" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2905:2916" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="2943:2949" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="2997:3008" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3071:3077" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="3118:3129" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3146:3152" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="3201:3212" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3237:3243" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="3298:3309" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3340:3346" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="3401:3412" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3443:3449" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="3491:3502" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3524:3530" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="3591:3602" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3639:3645" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="3689:3700" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3724:3730" ph=" }" />
+            <marker date="1511913983988" expanded="false" signature="3784:3795" ph=" { " />
+            <marker date="1511913983988" expanded="false" signature="3818:3824" ph=" }" />
+            <marker date="1511913983988" expanded="true" signature="3858:4132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1511913983996" expanded="true" signature="181:241" ph="{...}" />
+            <marker date="1511913983996" expanded="true" signature="313:374" ph="{...}" />
+            <marker date="1511913983996" expanded="false" signature="431:442" ph=" { " />
+            <marker date="1511913983996" expanded="false" signature="454:460" ph=" }" />
+            <marker date="1511913983996" expanded="false" signature="501:512" ph=" { " />
+            <marker date="1511913983996" expanded="false" signature="529:535" ph=" }" />
+            <marker date="1511913983996" expanded="false" signature="568:579" ph=" { " />
+            <marker date="1511913983996" expanded="false" signature="592:598" ph=" }" />
+            <marker date="1511913983996" expanded="false" signature="641:652" ph=" { " />
+            <marker date="1511913983996" expanded="false" signature="671:677" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/ForexProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1511913984020" expanded="false" signature="46:188" ph="..." />
+            <marker date="1511913984020" expanded="true" signature="190:351" ph="/**...*/" />
+            <marker date="1511913984020" expanded="true" signature="615:1718" ph="{...}" />
+            <marker date="1511913984020" expanded="true" signature="626:667" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Conversion/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="41" column="59" lean-forward="false" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+          <folding>
+            <element signature="e#1115#1134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/PerNicTotal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/Revenue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="350" column="10" lean-forward="false" selection-start-line="350" selection-start-column="10" selection-end-line="350" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/FlinkJobs/TopCustomers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="91" column="41" lean-forward="true" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/ExchangeRateMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Util/Currencies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="338">
           <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
           <folding>
-            <marker date="1511913983952" expanded="true" signature="35:268" ph="..." />
-            <marker date="1511913983952" expanded="true" signature="456:1938" ph="{...}" />
-            <marker date="1511913983952" expanded="true" signature="999:1218" ph="//..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ovh/milestone/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1356,6 +1382,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

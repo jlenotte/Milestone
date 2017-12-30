@@ -75,6 +75,7 @@ public class ConvertTest {
                             first.getNichandle(),
                             first.getName(),
                             first.getFirstName(),
+                            first.getRef(),
                             convertedSum,
                             "USD",
                             first.getZonedDate());
@@ -84,6 +85,7 @@ public class ConvertTest {
                             first.getNichandle(),
                             first.getName(),
                             first.getFirstName(),
+                            first.getRef(),
                             first.getTransaction(),
                             first.getCurrency(),
                             first.getZonedDate());

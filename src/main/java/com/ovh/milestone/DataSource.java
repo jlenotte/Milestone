@@ -41,11 +41,12 @@ public class DataSource {
                     String nic = nextLine[index++];
                     String name = nextLine[index++];
                     String firstName = nextLine[index++];
+                    String ref = nextLine[index++];
                     double transaction = Double.parseDouble(nextLine[index++]);
                     String currency = nextLine[index++];
                     ZonedDateTime date = ZonedDateTime.parse(nextLine[index++]);
 
-                    Invoice c = new Invoice(nic, name, firstName, transaction, currency, date);
+                    Invoice c = new Invoice(nic, name, firstName, ref, transaction, currency, date);
                     list.add(c);
                 }
             }

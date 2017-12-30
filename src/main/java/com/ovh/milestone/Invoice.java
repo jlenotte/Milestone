@@ -14,6 +14,9 @@ public class Invoice {
     private String nichandle;
     private String name;
     private String firstName;
+
+    private String ref;
+
     private Double transaction;
     private String currency;
     private String newCurrency;
@@ -21,27 +24,26 @@ public class Invoice {
     private Double convertedValue;
 
 
-
-
     // Constructor
+
     public Invoice() {
         this.nichandle = null;
         this.name = null;
         this.firstName = null;
+        this.ref = null;
         this.transaction = null;
         this.currency = null;
         this.date = null;
     }
 
 
-
-
-    public Invoice(String nichandle, String name, String firstName, Double transaction,
+    public Invoice(String nichandle, String name, String firstName, String ref, Double transaction,
                    String currency, ZonedDateTime date) {
 
         this.nichandle = nichandle;
         this.name = name;
         this.firstName = firstName;
+        this.ref = ref;
         this.transaction = transaction;
         this.currency = currency;
 
@@ -50,20 +52,17 @@ public class Invoice {
     }
 
 
-
-
     public Invoice(String nichandle, String name, String firstName, Double transaction,
                    String currency, String date) {
 
         this.nichandle = nichandle;
         this.name = name;
         this.firstName = firstName;
+        this.ref = ref;
         this.transaction = transaction;
         this.currency = currency;
         this.date = date;
     }
-
-
 
 
     public Invoice(String nichandle, String name, String firstName, Double transaction,
@@ -71,14 +70,13 @@ public class Invoice {
         this.nichandle = nichandle;
         this.name = name;
         this.firstName = firstName;
+        this.ref = ref;
         this.transaction = transaction;
         this.currency = currency;
         this.newCurrency = newCurr;
         this.date = date;
         this.convertedValue = convertedValue;
     }
-
-
 
 
     /**
@@ -90,13 +88,9 @@ public class Invoice {
     }
 
 
-
-
     public String getName() {
         return name;
     }
-
-
 
 
     public Double getTransaction() {
@@ -104,13 +98,9 @@ public class Invoice {
     }
 
 
-
-
     public String getCurrency() {
         return currency;
     }
-
-
 
 
     public String getNewCurrency() {
@@ -121,6 +111,9 @@ public class Invoice {
     }
 
 
+    public String getRef() {
+        return ref;
+    }
 
 
     public String getDate() {
@@ -128,13 +121,9 @@ public class Invoice {
     }
 
 
-
-
     public ZonedDateTime getZonedDate() {
         return ZonedDateTime.parse(date, DateTimeFormatter.ISO_ZONED_DATE_TIME);
     }
-
-
 
 
     public String getFirstName() {
@@ -142,13 +131,13 @@ public class Invoice {
     }
 
 
-
+    public void setRef(String ref) {
+        this.ref = ref;
+    }
 
     public void setNichandle(String nichandle) {
         this.nichandle = nichandle;
     }
-
-
 
 
     public void setName(String name) {
@@ -156,13 +145,9 @@ public class Invoice {
     }
 
 
-
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
-
 
 
     public void setDate(ZonedDateTime date) {
@@ -170,13 +155,9 @@ public class Invoice {
     }
 
 
-
-
     public void setDate(String date) {
         this.date = date;
     }
-
-
 
 
     public void setCurrency(String currency) {
@@ -184,13 +165,9 @@ public class Invoice {
     }
 
 
-
-
     public void setTransaction(Double transaction) {
         this.transaction = transaction;
     }
-
-
 
 
     public void setNewCurrency(String newCurrency) {
@@ -198,20 +175,14 @@ public class Invoice {
     }
 
 
-
-
     public Double getConvertedValue() {
         return convertedValue;
     }
 
 
-
-
     public void setConvertedValue(Double convertedValue) {
         this.convertedValue = convertedValue;
     }
-
-
 
 
     @Override
@@ -220,14 +191,10 @@ public class Invoice {
     }
 
 
-
-
     @Override
     public boolean equals(Object o) {
         return super.equals(o);
     }
-
-
 
 
     public String toString() {

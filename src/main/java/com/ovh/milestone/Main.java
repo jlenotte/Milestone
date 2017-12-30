@@ -41,7 +41,7 @@ public class Main {
      */
 
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);
-    private static final String PROPERTIES = "/home/jules/WORKSPACE/Java/Milestone/src/main/resources/milestone.properties";
+    private static final String PROPERTIES = "/home/jules/WORKSPACE/Java/Milestone/Milestone/src/main/resources/milestone.properties";
 
 
 
@@ -54,7 +54,7 @@ public class Main {
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         // Setup input data1
-        String csvFile = config.get("csvFile", "data.csv");
+        String csvFile = config.get("csvFile", "dataBase.csv");
         String csvFile2 = config.get("csvFile2", "dataBase2.csv");
         String csvFile3 = config.get("csvFile4", "dataLines.csv");
         String forex = config.get("forex", "forex.csv");
@@ -78,10 +78,10 @@ public class Main {
 
         // Read CSV file and convert to POJO
         DataSet<Invoice> data1 = env.readCsvFile(csvFile)
-                .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
+                .pojoType(Invoice.class, "nichandle", "name", "firstName", "ref", "transaction", "currency", "date");
 
         DataSet<Invoice> data2 = env.readCsvFile(csvFile2)
-                .pojoType(Invoice.class, "nichandle", "name", "firstName", "transaction", "currency", "date");
+                .pojoType(Invoice.class, "nichandle", "name", "firstName", "ref", "transaction", "currency", "date");
 
         DataSet<InvoiceLine> currData = env.readCsvFile(csvFile3)
                 .pojoType(InvoiceLine.class, "date", "sum");

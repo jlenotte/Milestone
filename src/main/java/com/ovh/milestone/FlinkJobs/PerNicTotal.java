@@ -53,6 +53,7 @@ public class PerNicTotal {
                                 value1.getNichandle(),
                                 value1.getName(),
                                 value1.getFirstName(),
+                                value1.getRef(),
                                 sum,
                                 value1.getCurrency(),
                                 value1.getZonedDate());

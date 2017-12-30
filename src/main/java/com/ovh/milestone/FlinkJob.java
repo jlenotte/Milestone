@@ -99,7 +99,7 @@ public class FlinkJob {
 
                     // assign values to object params
 
-                    return new Invoice(splitter[0], splitter[1], splitter[2],
+                    return new Invoice(splitter[0], splitter[1], splitter[2], splitter[3],
                                        value, currency, date);
                 })
                 // Group by Invoices to get nichandles
@@ -108,6 +108,7 @@ public class FlinkJob {
                 .reduce((ReduceFunction<Invoice>) (invoice, t1) -> new Invoice(invoice.getNichandle(),
                                                                                invoice.getName(),
                                                                                invoice.getFirstName(),
+                                                                               invoice.getRef(),
                                                                                invoice.getTransaction() +
                                                                                        t1.getTransaction(),
                                                                                invoice.getCurrency(),
